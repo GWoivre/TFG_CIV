@@ -2,19 +2,14 @@
 <Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
-    <Name>TFG_CIV</Name>
-    <Guid>8c6472be-9b71-4608-b804-b4918e1eaddc</Guid>
+    <Name>TFG_CIV_GWG</Name>
+    <Guid>8feaae61-4096-433e-a911-d993f46659a0</Guid>
     <ProjectGuid>f1d6e542-03ea-4e6d-bab2-6e3bc6353dda</ProjectGuid>
-    <ModVersion>2</ModVersion>
-    <Teaser>Introduces the CIVILIZATION_NAME to Civilization VI.</Teaser>
-    <Description>Introduces the CIVILIZATION_NAME to Civilization VI.
-
-[NEWLINE][NEWLINE]Lead them to glory with LEADERNAME as your leader.
-
-[NEWLINE][NEWLINE]Harness the fearsome UNIQUE_UNIT_NAME Unique Unit, alongside the UNIQUE_INFRASTRUCTURE_NAME Unique Improvement.</Description>
-    <Authors>maconnolly</Authors>
-    <SpecialThanks>
-    </SpecialThanks>
+    <ModVersion>1</ModVersion>
+    <Teaser>Añadir un teaser</Teaser>
+    <Description>Añadir una descripcion</Description>
+    <Authors>Guillermo Woivre Gomez</Authors>
+    <SpecialThanks>Matt (MC)</SpecialThanks>
     <AffectsSavedGames>false</AffectsSavedGames>
     <SupportsSinglePlayer>true</SupportsSinglePlayer>
     <SupportsMultiplayer>true</SupportsMultiplayer>
@@ -29,6 +24,7 @@
     <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="NewAction"><File>Leader/Leader_Config.sql</File></UpdateDatabase><UpdateText id="NewAction"><File>Core/Civilization_Localisation.sql</File><File>Leader/Leader_Localisation.sql</File></UpdateText><UpdateColors id="NewAction"><File>Core/Civilization_Colors.sql</File><File>Leader/Leader_Colors.sql</File></UpdateColors><UpdateArt id="NewAction"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateIcons id="UpdateIcons"><File>Core/NewIcons.sql</File></UpdateIcons></FrontEndActions>]]></FrontEndActionData>
     <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="NewAction"><File>Core/Civilization_Config.sql</File><File>Leader/Leader_Core.sql</File><File>Core/Civilization_UA.sql</File><File>Core/Civilization_UI.sql</File><File>Core/Civilization_UU.sql</File><File>Leader/Leader_UA.sql</File><File>Leader/Leader_Agenda.sql</File><File>Leader/Leader_Screens.sql</File><File>Core/Civilization_HistoricMoments.sql</File></UpdateDatabase><UpdateColors id="NewAction"><File>Core/Civilization_Colors.sql</File><File>Leader/Leader_Colors.sql</File></UpdateColors><UpdateText id="NewAction"><File>Core/Civilization_Localisation.sql</File><File>Leader/Leader_Localisation.sql</File></UpdateText><UpdateIcons id="NewIcons"><File>Core/NewIcons.sql</File></UpdateIcons><UpdateArt id="NewAction"><File>(Mod Art Dependency File)</File></UpdateArt></InGameActions>]]></InGameActionData>
     <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="Expansion1"><GameModeInUse><GameCoreInUse>Expansion1</GameCoreInUse></GameModeInUse></Criteria></ActionCriteria>]]></ActionCriteriaData>
+    <Homepage>https://github.com/GWoivre/TFG_CIV</Homepage>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>

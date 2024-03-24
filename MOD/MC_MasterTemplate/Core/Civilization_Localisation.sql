@@ -21,9 +21,9 @@ VALUES
 -- Defines the text strings that identify your custom civilization by name.
 -----------------------------------------------
 
-	('en_US',	'LOC_CIVILIZATION_MC_OLMEC_NAME',			'Olmec'			),
-	('en_US',	'LOC_CIVILIZATION_MC_OLMEC_DESCRIPTION',	'Olmec Empire'	),
-	('en_US',	'LOC_CIVILIZATION_MC_OLMEC_ADJECTIVE',  	'Olmec'			),
+	('en_US',	'LOC_CIVILIZATION_MC_OLMEC_NAME',			'Las Vegas'			),
+	('en_US',	'LOC_CIVILIZATION_MC_OLMEC_DESCRIPTION',	'Las Vegas, Nevada'	),
+	('en_US',	'LOC_CIVILIZATION_MC_OLMEC_ADJECTIVE',  	'Las Vegas'			),
 	
 -----------------------------------------------
 -- Civilization Unique Ability
@@ -33,9 +33,9 @@ VALUES
 -- Please note: The display of in-game icons in text is achieved by using [ICON_Type].
 -----------------------------------------------
 
-	('en_US',	'LOC_TRAIT_CIVILIZATION_MC_LET_THE_GODS_FEED_US_NAME',				'Let the Gods feed us!'				),
+	('en_US',	'LOC_TRAIT_CIVILIZATION_MC_LET_THE_GODS_FEED_US_NAME',				'Gambling'				),
 	('en_US',	'LOC_TRAIT_CIVILIZATION_MC_LET_THE_GODS_FEED_US_DESCRIPTION',	
-	'Holy Site buildings will yield an additional +2 [ICON_Food] Food, alongside their usual [ICON_Faith] Faith.'	),
+	'Gambling'	),
 
 -----------------------------------------------
 -- Civilization Unique Infrastructure (Improvement)
@@ -45,9 +45,9 @@ VALUES
 -- Please note: The display of in-game icons in text is achieved by using [ICON_Type].
 -----------------------------------------------
 
-	('en_US',	'LOC_IMPROVEMENT_OLMEC_COLOSSAL_HEAD_NAME',				'Colossal Head'								),
+	('en_US',	'LOC_IMPROVEMENT_OLMEC_COLOSSAL_HEAD_NAME',				'Gambling'								),
 	('en_US',	'LOC_IMPROVEMENT_OLMEC_COLOSSAL_HEAD_DESCRIPTION',
-	'Unlocks the Builder ability to construct a Colossal Head, unique to the Olmec. [NEWLINE][NEWLINE] +1 [ICON_Faith] Faith, +1 [ICON_SCIENCE] Science. +1 [ICON_Faith] Faith if adjacent to a Campus, +1 [ICON_Science] Science if adjacent to a Holy Site. Cities with at least four Colossal heads provide a [ICON_GreatArtist] Great Artist Point. May be built on Rainforest. Cannot be constructed adjacent to another Colossal Head.'	),
+	'Gambling [NEWLINE][NEWLINE] +1 [ICON_Faith] Faith, +1 [ICON_SCIENCE] Science. +1 [ICON_Faith] Faith if adjacent to a Campus, +1 [ICON_Science] Science if adjacent to a Holy Site. Cities with at least four Colossal heads provide a [ICON_GreatArtist] Great Artist Point. May be built on Rainforest. Cannot be constructed adjacent to another Colossal Head.'	),
 
 -----------------------------------------------
 -- Civilization Unique Unit
@@ -59,7 +59,7 @@ VALUES
 -- Please note: The display of in-game icons in text is achieved by using [ICON_Type].
 -----------------------------------------------
 
-	('en_US',	'LOC_UNIT_MC_WEREJAGUAR_NAME',	'Werejaguar'	),
+	('en_US',	'LOC_UNIT_MC_WEREJAGUAR_NAME',	'Gambler'	),
 	('en_US',	'LOC_UNIT_MC_WEREJAGUAR_DESCRIPTION',	 
 	'The elite warriors of the Olmec military, these fearsome, masked warriors replace the Spearman and receive a [ICON_Strength] Combat Strength boost during [ICON_Glory_Golden_Age] Golden Ages.'	),
 

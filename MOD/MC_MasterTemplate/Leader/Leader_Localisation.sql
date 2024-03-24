@@ -19,27 +19,27 @@ VALUES
 -- Leader Name
 -----------------------------------------------	
 	
-	('en_US',	'LOC_LEADER_MC_PO_NGBE_NAME',  'Po Ngbe'	),
+	('en_US',	'LOC_LEADER_MC_PO_NGBE_NAME',  'Chiffre'	),
 	
 -----------------------------------------------
 -- Leader Unique Ability
 -----------------------------------------------	
 
-	('en_US',	'LOC_TRAIT_LEADER_MC_FEAR_NOT_EXPLORATION_NAME',	'Fear not exploration, for God will guide us'	),
-	('en_US',	'LOC_TRAIT_LEADER_MC_FEAR_NOT_EXPLORATION_DESCRIPTION',		'Settlers and Builders ignore movement penalties in Hills terrain.'	),
+	('en_US',	'LOC_TRAIT_LEADER_MC_FEAR_NOT_EXPLORATION_NAME',	'Gambling'	),
+	('en_US',	'LOC_TRAIT_LEADER_MC_FEAR_NOT_EXPLORATION_DESCRIPTION',		'Gambling desc'	),
 
 -----------------------------------------------
 -- Leader Agenda
 -----------------------------------------------	
 
-	('en_US',	'LOC_AGENDA_MC_PO_NGBE_NAME',	'Seeker of Holy Lands'	),
-	('en_US',	'LOC_AGENDA_MC_PO_NGBE_DESCRIPTION',	'Will explore the lands around him as much as possible. Respects those that commit efforts to science and culture, but dislikes those that do not recognise religion.'	),
+	('en_US',	'LOC_AGENDA_MC_PO_NGBE_NAME',	'Gambling'	),
+	('en_US',	'LOC_AGENDA_MC_PO_NGBE_DESCRIPTION',	'Gambling'	),
 	
-	('en_US',	'LOC_DIPLO_KUDO_LEADER_MC_PO_NGBE_REASON_ANY',	'(You have a high culture output and are progressing well with science.)'	),
-	('en_US',	'LOC_DIPLO_MODIFIER_MC_PO_NGBE_HAPPY',	'Ku Po Ngbe recognises your artists and scholars. Let monuments be built for them in celebration!'	),
+	('en_US',	'LOC_DIPLO_KUDO_LEADER_MC_PO_NGBE_REASON_ANY',	'(Gambling)'	),
+	('en_US',	'LOC_DIPLO_MODIFIER_MC_PO_NGBE_HAPPY',	'Gambling'	),
 	
-	('en_US',	'LOC_DIPLO_WARNING_LEADER_MC_PO_NGBE_REASON_ANY',	'(You have a low level of faith.)'	),
-	('en_US',	'LOC_DIPLO_MODIFIER_MC_PO_NGBE_UNHAPPY',	'Religion is the blood that binds the body! Ku Po Ngbe expects you to recognise this more proudly.'	),
+	('en_US',	'LOC_DIPLO_WARNING_LEADER_MC_PO_NGBE_REASON_ANY',	'Gambling'	),
+	('en_US',	'LOC_DIPLO_MODIFIER_MC_PO_NGBE_UNHAPPY',	'Gambling'	),
 
 		
 -----------------------------------------------
@@ -47,7 +47,7 @@ VALUES
 -----------------------------------------------	
 
 	('en_US',	'LOC_LOADING_INFO_LEADER_MC_PO_NGBE',
-	'Revered Ku of the Olmec, Po Ngbe! Challenge your people to lay claim to the vast lands of Mesoamerica, navigating the hills and forests with mystic ease. Let the world marvel as you erect monuments of the Gods your people worship. Will you, yourself, be declared a God for your leadership? Your fearsome Werejaguars will surely silence those who question your prophecy.'  	),
+	'Gambling'  	),
 
 -----------------------------------------------
 -- Diplomacy Text: First Meet
@@ -55,19 +55,19 @@ VALUES
 
 	-- First AI Line (ANY)
 	('en_US',	'LOC_DIPLO_FIRST_MEET_LEADER_MC_PO_NGBE_ANY',
-	'Approach, stranger. Nehua notoca Po Ngbe, Ku of the Olmec people. Nechpactia nimitzixmati. Know that we cultivate many lands and keep a watchful eye over the rolling hills and plains, far and wide.' ),
+	'Gambling far and wide.' ),
 	
 	-- AI invitation to visit nearby City (ANY)
 	('en_US',	'LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_MC_PO_NGBE_ANY',
-	'We can help you navigate our territory and walk our grounds, wondering at the colossal monuments we built for our Gods. Will you give us the honour of your company?'	),
+	'Gambling'	),
 	
 	-- AI accepts human invitation (ANY)
 	('en_US',	'LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_MC_PO_NGBE_ANY',
-	'I am glad to hear it.'	),
+	'Gambling'	),
 	
 	-- AI invitation to exchange Capital Information (ANY)
 	('en_US',	'LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_MC_PO_NGBE_ANY',
-	'How better to know a friend than to know his home? Will you indulge our tribesmen, for we will certainly welcome yours?'	),
+	'Gambling'	),
 
 -----------------------------------------------
 -- Diplomacy Text: Greetings
@@ -75,11 +75,11 @@ VALUES
 
 	-- (HAPPY)
 	('en_US',	'LOC_DIPLO_GREETING_LEADER_MC_PO_NGBE_HAPPY',
-	'Ahmo titonamiqui ye huehcauh. Many moons have circled since we last spoke. It is great to see you again, ikniutli.'	),
+	'Gambling.'	),
 
 	-- (UNHAPPY)
 	('en_US',	'LOC_DIPLO_GREETING_LEADER_MC_PO_NGBE_UNHAPPY',
-	'Tlein chiua tikneki? What makes you request me at this time?'	),
+	'Gambling'	),
 	
 -----------------------------------------------
 -- Diplomacy Text: Delegation

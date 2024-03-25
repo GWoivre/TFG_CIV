@@ -1,7 +1,3 @@
-/*
-	Civilization Unique Ability
-	Authors: MC
-*/
 
 -----------------------------------------------
 -- Types
@@ -39,7 +35,7 @@ VALUES	('TRAIT_CIVILIZATION_MC_LET_THE_GODS_FEED_US',		'LOC_TRAIT_CIVILIZATION_M
 
 INSERT INTO	CivilizationTraits
 		(CivilizationType,				TraitType										)
-VALUES	('CIVILIZATION_MC_OLMEC',		'TRAIT_CIVILIZATION_MC_LET_THE_GODS_FEED_US'	);
+VALUES	('CIVILIZATION_GWG_VEGAS',		'TRAIT_CIVILIZATION_MC_LET_THE_GODS_FEED_US'	);
 
 -----------------------------------------------
 -- TraitModifiers

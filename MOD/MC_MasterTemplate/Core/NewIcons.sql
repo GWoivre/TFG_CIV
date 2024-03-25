@@ -26,25 +26,25 @@
 
 INSERT INTO IconTextureAtlases	
 		(Name,									IconSize,	IconsPerRow,	IconsPerColumn,		Filename					)
-VALUES	('ICON_ATLAS_MC_OLMEC',					22,	 		1,				1,					'OlmecAtlas22.dds'			),
-		('ICON_ATLAS_MC_OLMEC',					30,	 		1,				1,					'OlmecAtlas30.dds'			),
-		('ICON_ATLAS_MC_OLMEC',					36,	 		1,				1,					'OlmecAtlas36.dds'			),
-		('ICON_ATLAS_MC_OLMEC',					44,	 		1,				1,					'OlmecAtlas44.dds'			),
-		('ICON_ATLAS_MC_OLMEC',					48,	 		1,				1,					'OlmecAtlas48.dds'			),
-		('ICON_ATLAS_MC_OLMEC',					50,	 		1,				1,					'OlmecAtlas50.dds'			),
-		('ICON_ATLAS_MC_OLMEC',					64,	 		1,				1,					'OlmecAtlas64.dds'			),
-		('ICON_ATLAS_MC_OLMEC',					80,	 		1,				1,					'OlmecAtlas80.dds'			),
-		('ICON_ATLAS_MC_OLMEC',					200, 		1,				1,					'OlmecAtlas200.dds'			),
-		('ICON_ATLAS_MC_OLMEC',					256, 		1,				1,					'OlmecAtlas256.dds'			),
+VALUES	('ICON_ATLAS_GWG_VEGAS',					22,	 		1,				1,					'OlmecAtlas22.dds'			),
+		('ICON_ATLAS_GWG_VEGAS',					30,	 		1,				1,					'OlmecAtlas30.dds'			),
+		('ICON_ATLAS_GWG_VEGAS',					36,	 		1,				1,					'OlmecAtlas36.dds'			),
+		('ICON_ATLAS_GWG_VEGAS',					44,	 		1,				1,					'OlmecAtlas44.dds'			),
+		('ICON_ATLAS_GWG_VEGAS',					48,	 		1,				1,					'OlmecAtlas48.dds'			),
+		('ICON_ATLAS_GWG_VEGAS',					50,	 		1,				1,					'OlmecAtlas50.dds'			),
+		('ICON_ATLAS_GWG_VEGAS',					64,	 		1,				1,					'OlmecAtlas64.dds'			),
+		('ICON_ATLAS_GWG_VEGAS',					80,	 		1,				1,					'OlmecAtlas80.dds'			),
+		('ICON_ATLAS_GWG_VEGAS',					200, 		1,				1,					'OlmecAtlas200.dds'			),
+		('ICON_ATLAS_GWG_VEGAS',					256, 		1,				1,					'OlmecAtlas256.dds'			),
 
-		('ICON_ATLAS_MC_PO_NGBE',				32,	 		1,				1,					'PoNgbeIcon32.dds'			),
-		('ICON_ATLAS_MC_PO_NGBE',				45,	 		1,				1,					'PoNgbeIcon45.dds'			),
-		('ICON_ATLAS_MC_PO_NGBE',				48,	 		1,				1,					'PoNgbeIcon48.dds'			),
-		('ICON_ATLAS_MC_PO_NGBE',				50,	 		1,				1,					'PoNgbeIcon50.dds'			),
-		('ICON_ATLAS_MC_PO_NGBE',				55,	 		1,				1,					'PoNgbeIcon55.dds'			),
-		('ICON_ATLAS_MC_PO_NGBE',				64,			1,				1,					'PoNgbeIcon64.dds'			),
-		('ICON_ATLAS_MC_PO_NGBE',				80,	 		1,				1,					'PoNgbeIcon80.dds'			),
-		('ICON_ATLAS_MC_PO_NGBE',				256,	 	1,				1,					'PoNgbeIcon256.dds'			),
+		('ICON_ATLAS_GWG_CHIFFRE',				32,	 		1,				1,					'PoNgbeIcon32.dds'			),
+		('ICON_ATLAS_GWG_CHIFFRE',				45,	 		1,				1,					'PoNgbeIcon45.dds'			),
+		('ICON_ATLAS_GWG_CHIFFRE',				48,	 		1,				1,					'PoNgbeIcon48.dds'			),
+		('ICON_ATLAS_GWG_CHIFFRE',				50,	 		1,				1,					'PoNgbeIcon50.dds'			),
+		('ICON_ATLAS_GWG_CHIFFRE',				55,	 		1,				1,					'PoNgbeIcon55.dds'			),
+		('ICON_ATLAS_GWG_CHIFFRE',				64,			1,				1,					'PoNgbeIcon64.dds'			),
+		('ICON_ATLAS_GWG_CHIFFRE',				80,	 		1,				1,					'PoNgbeIcon80.dds'			),
+		('ICON_ATLAS_GWG_CHIFFRE',				256,	 	1,				1,					'PoNgbeIcon256.dds'			),
 		
 		('ICON_ATLAS_MC_WEREJAGUAR',			22,			2,				1,					'WerejaguarAtlas22.dds'		),
 		('ICON_ATLAS_MC_WEREJAGUAR',			32,			2,				1,					'WerejaguarAtlas32.dds'		),
@@ -73,7 +73,7 @@ VALUES	('ICON_ATLAS_MC_OLMEC',					22,	 		1,				1,					'OlmecAtlas22.dds'			),
 
 INSERT INTO IconDefinitions
 		(Name,										Atlas,							'Index'				)
-VALUES	('ICON_CIVILIZATION_MC_OLMEC',				'ICON_ATLAS_MC_OLMEC',			0					),
-		('ICON_LEADER_MC_PO_NGBE',					'ICON_ATLAS_MC_PO_NGBE',		0					),
+VALUES	('ICON_CIVILIZATION_GWG_VEGAS',				'ICON_ATLAS_GWG_VEGAS',			0					),
+		('ICON_LEADER_GWG_CHIFFRE',					'ICON_ATLAS_GWG_CHIFFRE',		0					),
 		('ICON_UNIT_MC_WEREJAGUAR_PORTRAIT',		'ICON_ATLAS_MC_WEREJAGUAR',		0					),
 		('ICON_UNIT_MC_WEREJAGUAR',					'ICON_ATLAS_MC_WEREJAGUAR',		1					);

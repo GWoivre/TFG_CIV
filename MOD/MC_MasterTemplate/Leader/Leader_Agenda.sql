@@ -13,7 +13,7 @@
 
 INSERT INTO Types
 			(Type,							Kind			)
-VALUES		('TRAIT_AGENDA_MC_PO_NGBE',		'KIND_TRAIT'	);
+VALUES		('TRAIT_AGENDA_GWG_CHIFFRE',		'KIND_TRAIT'	);
 
 -----------------------------------------------
 -- Agendas
@@ -25,7 +25,7 @@ VALUES		('TRAIT_AGENDA_MC_PO_NGBE',		'KIND_TRAIT'	);
 
 INSERT INTO Agendas
 			(AgendaType,			Name,							Description								)
-VALUES 		('AGENDA_MC_PO_NGBE',	'LOC_AGENDA_MC_PO_NGBE_NAME',	'LOC_AGENDA_MC_PO_NGBE_DESCRIPTION'		);
+VALUES 		('AGENDA_GWG_CHIFFRE',	'LOC_AGENDA_GWG_CHIFFRE_NAME',	'LOC_AGENDA_GWG_CHIFFRE_DESCRIPTION'		);
 
 -----------------------------------------------
 -- Traits
@@ -35,7 +35,7 @@ VALUES 		('AGENDA_MC_PO_NGBE',	'LOC_AGENDA_MC_PO_NGBE_NAME',	'LOC_AGENDA_MC_PO_N
 
 INSERT INTO Traits				
 			(TraitType,						Name,							Description								)
-VALUES		('TRAIT_AGENDA_MC_PO_NGBE',		'LOC_AGENDA_MC_PO_NGBE_NAME',	'LOC_AGENDA_MC_PO_NGBE_DESCRIPTION'		);
+VALUES		('TRAIT_AGENDA_GWG_CHIFFRE',		'LOC_AGENDA_GWG_CHIFFRE_NAME',	'LOC_AGENDA_GWG_CHIFFRE_DESCRIPTION'		);
 
 -----------------------------------------------
 -- AgendaTraits
@@ -47,7 +47,7 @@ VALUES		('TRAIT_AGENDA_MC_PO_NGBE',		'LOC_AGENDA_MC_PO_NGBE_NAME',	'LOC_AGENDA_M
 
 INSERT INTO AgendaTraits
 			(AgendaType,			TraitType					)
-VALUES 		('AGENDA_MC_PO_NGBE',	'TRAIT_AGENDA_MC_PO_NGBE'	);
+VALUES 		('AGENDA_GWG_CHIFFRE',	'TRAIT_AGENDA_GWG_CHIFFRE'	);
 
 -----------------------------------------------
 -- HistoricalAgendas
@@ -57,7 +57,7 @@ VALUES 		('AGENDA_MC_PO_NGBE',	'TRAIT_AGENDA_MC_PO_NGBE'	);
 
 INSERT INTO HistoricalAgendas
 			(LeaderType,			AgendaType				)
-VALUES 		('LEADER_MC_PO_NGBE',	'AGENDA_MC_PO_NGBE'		);
+VALUES 		('LEADER_GWG_CHIFFRE',	'AGENDA_GWG_CHIFFRE'		);
 
 -----------------------------------------------
 -- ExclusiveAgendas
@@ -71,7 +71,7 @@ VALUES 		('LEADER_MC_PO_NGBE',	'AGENDA_MC_PO_NGBE'		);
 
 INSERT INTO ExclusiveAgendas
 			(AgendaOne,				AgendaTwo					)
-VALUES 		('AGENDA_MC_PO_NGBE',	'AGENDA_INDUSTRIALIST'		);
+VALUES 		('AGENDA_GWG_CHIFFRE',	'AGENDA_INDUSTRIALIST'		);
 
 -----------------------------------------------
 -- TraitModifiers
@@ -83,8 +83,8 @@ VALUES 		('AGENDA_MC_PO_NGBE',	'AGENDA_INDUSTRIALIST'		);
 
 INSERT INTO TraitModifiers
 			(TraitType,						ModifierId								)
-VALUES		('TRAIT_AGENDA_MC_PO_NGBE',		'AGENDA_MODIFIER_MC_PO_NGBE_UNHAPPY'	),
-			('TRAIT_AGENDA_MC_PO_NGBE',		'AGENDA_MODIFIER_MC_PO_NGBE_HAPPY'		);
+VALUES		('TRAIT_AGENDA_GWG_CHIFFRE',		'AGENDA_MODIFIER_GWG_CHIFFRE_UNHAPPY'	),
+			('TRAIT_AGENDA_GWG_CHIFFRE',		'AGENDA_MODIFIER_GWG_CHIFFRE_HAPPY'		);
 		
 -----------------------------------------------
 -- Modifiers
@@ -96,8 +96,8 @@ VALUES		('TRAIT_AGENDA_MC_PO_NGBE',		'AGENDA_MODIFIER_MC_PO_NGBE_UNHAPPY'	),
 
 INSERT INTO Modifiers	
 			(ModifierId,								ModifierType,									SubjectRequirementSetId			)
-VALUES		('AGENDA_MODIFIER_MC_PO_NGBE_UNHAPPY',		'MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER',	'REQSET_MC_PO_NGBE_UNHAPPY'		),
-			('AGENDA_MODIFIER_MC_PO_NGBE_HAPPY',		'MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER',	'REQSET_MC_PO_NGBE_HAPPY'		);
+VALUES		('AGENDA_MODIFIER_GWG_CHIFFRE_UNHAPPY',		'MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER',	'REQSET_GWG_CHIFFRE_UNHAPPY'		),
+			('AGENDA_MODIFIER_GWG_CHIFFRE_HAPPY',		'MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER',	'REQSET_GWG_CHIFFRE_HAPPY'		);
 
 -----------------------------------------------	
 -- ModifierStrings
@@ -108,8 +108,8 @@ VALUES		('AGENDA_MODIFIER_MC_PO_NGBE_UNHAPPY',		'MODIFIER_PLAYER_DIPLOMACY_SIMPL
 -----------------------------------------------	
 INSERT INTO ModifierStrings
 			(ModifierId,								Context,	Text								)
-VALUES		('AGENDA_MODIFIER_MC_PO_NGBE_UNHAPPY',		'Sample',	'LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL'	),
-			('AGENDA_MODIFIER_MC_PO_NGBE_HAPPY',		'Sample',	'LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL'	);
+VALUES		('AGENDA_MODIFIER_GWG_CHIFFRE_UNHAPPY',		'Sample',	'LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL'	),
+			('AGENDA_MODIFIER_GWG_CHIFFRE_HAPPY',		'Sample',	'LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL'	);
 
 -----------------------------------------------
 -- ModifierArguments
@@ -130,19 +130,19 @@ VALUES		('AGENDA_MODIFIER_MC_PO_NGBE_UNHAPPY',		'Sample',	'LOC_TOOLTIP_SAMPLE_DI
 
 INSERT INTO ModifierArguments
 			(ModifierId,							Name,							Value												)
-VALUES		('AGENDA_MODIFIER_MC_PO_NGBE_UNHAPPY',	'InitialValue',					-5													),
-			('AGENDA_MODIFIER_MC_PO_NGBE_UNHAPPY',	'IncrementValue',				-1													),
-			('AGENDA_MODIFIER_MC_PO_NGBE_UNHAPPY',	'IncrementTurns',				-10													),
-			('AGENDA_MODIFIER_MC_PO_NGBE_UNHAPPY',	'MaxValue',						-25													),
-			('AGENDA_MODIFIER_MC_PO_NGBE_UNHAPPY',	'StatementKey',					'LOC_DIPLO_WARNING_LEADER_MC_PO_NGBE_REASON_ANY'	),
-			('AGENDA_MODIFIER_MC_PO_NGBE_UNHAPPY',	'SimpleModifierDescription',	'LOC_DIPLO_MODIFIER_MC_PO_NGBE_UNHAPPY'				),
+VALUES		('AGENDA_MODIFIER_GWG_CHIFFRE_UNHAPPY',	'InitialValue',					-5													),
+			('AGENDA_MODIFIER_GWG_CHIFFRE_UNHAPPY',	'IncrementValue',				-1													),
+			('AGENDA_MODIFIER_GWG_CHIFFRE_UNHAPPY',	'IncrementTurns',				-10													),
+			('AGENDA_MODIFIER_GWG_CHIFFRE_UNHAPPY',	'MaxValue',						-25													),
+			('AGENDA_MODIFIER_GWG_CHIFFRE_UNHAPPY',	'StatementKey',					'LOC_DIPLO_WARNING_LEADER_GWG_CHIFFRE_REASON_ANY'	),
+			('AGENDA_MODIFIER_GWG_CHIFFRE_UNHAPPY',	'SimpleModifierDescription',	'LOC_DIPLO_MODIFIER_GWG_CHIFFRE_UNHAPPY'				),
 	
-			('AGENDA_MODIFIER_MC_PO_NGBE_HAPPY',	'InitialValue',					5													),
-			('AGENDA_MODIFIER_MC_PO_NGBE_HAPPY',	'IncrementValue',				1													),
-			('AGENDA_MODIFIER_MC_PO_NGBE_HAPPY',	'IncrementTurns',				10													),
-			('AGENDA_MODIFIER_MC_PO_NGBE_HAPPY',	'MaxValue',						12													),
-			('AGENDA_MODIFIER_MC_PO_NGBE_HAPPY',	'StatementKey',					'LOC_DIPLO_KUDO_LEADER_MC_PO_NGBE_REASON_ANY'		),
-			('AGENDA_MODIFIER_MC_PO_NGBE_HAPPY',	'SimpleModifierDescription',	'LOC_DIPLO_MODIFIER_MC_PO_NGBE_HAPPY'				);
+			('AGENDA_MODIFIER_GWG_CHIFFRE_HAPPY',	'InitialValue',					5													),
+			('AGENDA_MODIFIER_GWG_CHIFFRE_HAPPY',	'IncrementValue',				1													),
+			('AGENDA_MODIFIER_GWG_CHIFFRE_HAPPY',	'IncrementTurns',				10													),
+			('AGENDA_MODIFIER_GWG_CHIFFRE_HAPPY',	'MaxValue',						12													),
+			('AGENDA_MODIFIER_GWG_CHIFFRE_HAPPY',	'StatementKey',					'LOC_DIPLO_KUDO_LEADER_GWG_CHIFFRE_REASON_ANY'		),
+			('AGENDA_MODIFIER_GWG_CHIFFRE_HAPPY',	'SimpleModifierDescription',	'LOC_DIPLO_MODIFIER_GWG_CHIFFRE_HAPPY'				);
 			
 -----------------------------------------------
 -- RequirementSets
@@ -159,8 +159,8 @@ VALUES		('AGENDA_MODIFIER_MC_PO_NGBE_UNHAPPY',	'InitialValue',					-5											
 
 INSERT INTO RequirementSets
 			(RequirementSetId,				RequirementSetType			)
-VALUES		('REQSET_MC_PO_NGBE_UNHAPPY',	'REQUIREMENTSET_TEST_ALL'	),
-			('REQSET_MC_PO_NGBE_HAPPY',		'REQUIREMENTSET_TEST_ALL'	);
+VALUES		('REQSET_GWG_CHIFFRE_UNHAPPY',	'REQUIREMENTSET_TEST_ALL'	),
+			('REQSET_GWG_CHIFFRE_HAPPY',		'REQUIREMENTSET_TEST_ALL'	);
 
 -----------------------------------------------
 -- RequirementSetRequirements
@@ -179,10 +179,10 @@ VALUES		('REQSET_MC_PO_NGBE_UNHAPPY',	'REQUIREMENTSET_TEST_ALL'	),
 
 INSERT INTO RequirementSetRequirements
 			(RequirementSetId,				RequirementId						)
-VALUES		('REQSET_MC_PO_NGBE_UNHAPPY',	'REQUIRES_MAJOR_CIV_OPPONENT'		),
-			('REQSET_MC_PO_NGBE_UNHAPPY',	'REQUIRES_MET_10_TURNS_AGO'			),
-			('REQSET_MC_PO_NGBE_UNHAPPY',	'REQUIRES_HAS_LOW_FAITH'			),
-			('REQSET_MC_PO_NGBE_HAPPY',		'REQUIRES_MAJOR_CIV_OPPONENT'		),
-			('REQSET_MC_PO_NGBE_HAPPY',		'REQUIRES_MET_10_TURNS_AGO'			),
-			('REQSET_MC_PO_NGBE_HAPPY',		'REQUIRES_HAS_HIGH_CULTURE'			),
-			('REQSET_MC_PO_NGBE_HAPPY',		'REQUIRES_HAS_HIGH_SCIENCE'			);
+VALUES		('REQSET_GWG_CHIFFRE_UNHAPPY',	'REQUIRES_MAJOR_CIV_OPPONENT'		),
+			('REQSET_GWG_CHIFFRE_UNHAPPY',	'REQUIRES_MET_10_TURNS_AGO'			),
+			('REQSET_GWG_CHIFFRE_UNHAPPY',	'REQUIRES_HAS_LOW_FAITH'			),
+			('REQSET_GWG_CHIFFRE_HAPPY',		'REQUIRES_MAJOR_CIV_OPPONENT'		),
+			('REQSET_GWG_CHIFFRE_HAPPY',		'REQUIRES_MET_10_TURNS_AGO'			),
+			('REQSET_GWG_CHIFFRE_HAPPY',		'REQUIRES_HAS_HIGH_CULTURE'			),
+			('REQSET_GWG_CHIFFRE_HAPPY',		'REQUIRES_HAS_HIGH_SCIENCE'			);

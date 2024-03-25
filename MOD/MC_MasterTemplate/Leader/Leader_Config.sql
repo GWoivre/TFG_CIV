@@ -16,20 +16,20 @@
 --INSERT INTO Players (CivilizationType, CivilizationName, CivilizationIcon, CivilizationAbilityName, CivilizationAbilityDescription, CivilizationAbilityIcon, LeaderType, LeaderName, LeaderIcon, LeaderAbilityName, LeaderAbilityDescription, LeaderAbilityIcon)
 --VALUES	(	
 		-- Civilization
---		'CIVILIZATION_MC_OLMEC', -- CivilizationType
---		'LOC_CIVILIZATION_MC_OLMEC_NAME', -- CivilizationName
---		'ICON_CIVILIZATION_MC_OLMEC', -- CivilizationIcon
+--		'CIVILIZATION_GWG_VEGAS', -- CivilizationType
+--		'LOC_CIVILIZATION_GWG_VEGAS_NAME', -- CivilizationName
+--		'ICON_CIVILIZATION_GWG_VEGAS', -- CivilizationIcon
 --		'LOC_TRAIT_CIVILIZATION_MC_LET_THE_GODS_FEED_US_NAME', -- CivilizationAbilityName
 --		'LOC_TRAIT_CIVILIZATION_MC_LET_THE_GODS_FEED_US_DESCRIPTION', -- CivilizationAbilityDescription
---		'ICON_CIVILIZATION_MC_OLMEC', -- CivilizationAbilityIcon
+--		'ICON_CIVILIZATION_GWG_VEGAS', -- CivilizationAbilityIcon
 		
 		-- Leader
---		'LEADER_MC_PO_NGBE', -- LeaderType
---		'LOC_LEADER_MC_PO_NGBE_NAME', -- LeaderName
---		'ICON_LEADER_MC_PO_NGBE', -- LeaderIcon (Portrait)
+--		'LEADER_GWG_CHIFFRE', -- LeaderType
+--		'LOC_LEADER_GWG_CHIFFRE_NAME', -- LeaderName
+--		'ICON_LEADER_GWG_CHIFFRE', -- LeaderIcon (Portrait)
 --		'LOC_TRAIT_LEADER_MC_FEAR_NOT_EXPLORATION_NAME', -- LeaderAbilityName
 --		'LOC_TRAIT_LEADER_MC_FEAR_NOT_EXPLORATION_DESCRIPTION', -- LeaderAbilityDescription
---		'ICON_LEADER_MC_PO_NGBE' -- LeaderAbilityIcon
+--		'ICON_LEADER_GWG_CHIFFRE' -- LeaderAbilityIcon
 --		);
 
 -----------------------------------------------
@@ -46,20 +46,20 @@
 --VALUES	(	
 		-- Civilization
 --		'Players:Expansion1_Players', -- Domain
---		'CIVILIZATION_MC_OLMEC', -- CivilizationType
---		'LOC_CIVILIZATION_MC_OLMEC_NAME', -- CivilizationName
---		'ICON_CIVILIZATION_MC_OLMEC', -- CivilizationIcon
+--		'CIVILIZATION_GWG_VEGAS', -- CivilizationType
+--		'LOC_CIVILIZATION_GWG_VEGAS_NAME', -- CivilizationName
+--		'ICON_CIVILIZATION_GWG_VEGAS', -- CivilizationIcon
 --		'LOC_TRAIT_CIVILIZATION_MC_LET_THE_GODS_FEED_US_NAME', -- CivilizationAbilityName
 --		'LOC_TRAIT_CIVILIZATION_MC_LET_THE_GODS_FEED_US_DESCRIPTION', -- CivilizationAbilityDescription
---		'ICON_CIVILIZATION_MC_OLMEC', -- CivilizationAbilityIcon
+--		'ICON_CIVILIZATION_GWG_VEGAS', -- CivilizationAbilityIcon
 		
 		-- Leader
---		'LEADER_MC_PO_NGBE', -- LeaderType
---		'LOC_LEADER_MC_PO_NGBE_NAME', -- LeaderName
---		'ICON_LEADER_MC_PO_NGBE', -- LeaderIcon (Portrait)
+--		'LEADER_GWG_CHIFFRE', -- LeaderType
+--		'LOC_LEADER_GWG_CHIFFRE_NAME', -- LeaderName
+--		'ICON_LEADER_GWG_CHIFFRE', -- LeaderIcon (Portrait)
 --		'LOC_TRAIT_LEADER_MC_FEAR_NOT_EXPLORATION_NAME', -- LeaderAbilityName
 --		'LOC_TRAIT_LEADER_MC_FEAR_NOT_EXPLORATION_DESCRIPTION', -- LeaderAbilityDescription
---		'ICON_LEADER_MC_PO_NGBE' -- LeaderAbilityIcon
+--		'ICON_LEADER_GWG_CHIFFRE' -- LeaderAbilityIcon
 --		);
 
 -----------------------------------------------
@@ -74,20 +74,20 @@ INSERT INTO Players (Domain, CivilizationType, CivilizationName, CivilizationIco
 VALUES	(	
 		-- Civilization
 		'Players:Expansion2_Players', -- Domain
-		'CIVILIZATION_MC_OLMEC', -- CivilizationType
-		'LOC_CIVILIZATION_MC_OLMEC_NAME', -- CivilizationName
-		'ICON_CIVILIZATION_MC_OLMEC', -- CivilizationIcon
+		'CIVILIZATION_GWG_VEGAS', -- CivilizationType
+		'LOC_CIVILIZATION_GWG_VEGAS_NAME', -- CivilizationName
+		'ICON_CIVILIZATION_GWG_VEGAS', -- CivilizationIcon
 		'LOC_TRAIT_CIVILIZATION_MC_LET_THE_GODS_FEED_US_NAME', -- CivilizationAbilityName
 		'LOC_TRAIT_CIVILIZATION_MC_LET_THE_GODS_FEED_US_DESCRIPTION', -- CivilizationAbilityDescription
-		'ICON_CIVILIZATION_MC_OLMEC', -- CivilizationAbilityIcon
+		'ICON_CIVILIZATION_GWG_VEGAS', -- CivilizationAbilityIcon
 		
 		-- Leader
-		'LEADER_MC_PO_NGBE', -- LeaderType
-		'LOC_LEADER_MC_PO_NGBE_NAME', -- LeaderName
-		'ICON_LEADER_MC_PO_NGBE', -- LeaderIcon (Portrait)
+		'LEADER_GWG_CHIFFRE', -- LeaderType
+		'LOC_LEADER_GWG_CHIFFRE_NAME', -- LeaderName
+		'ICON_LEADER_GWG_CHIFFRE', -- LeaderIcon (Portrait)
 		'LOC_TRAIT_LEADER_MC_FEAR_NOT_EXPLORATION_NAME', -- LeaderAbilityName
 		'LOC_TRAIT_LEADER_MC_FEAR_NOT_EXPLORATION_DESCRIPTION', -- LeaderAbilityDescription
-		'ICON_LEADER_MC_PO_NGBE' -- LeaderAbilityIcon
+		'ICON_LEADER_GWG_CHIFFRE' -- LeaderAbilityIcon
 		);
 
 -----------------------------------------------
@@ -101,8 +101,8 @@ VALUES	(
 --INSERT INTO PlayerItems
 --		(CivilizationType, LeaderType, Type, Icon, Name, Description, SortIndex	)
 --VALUES	(
---		'CIVILIZATION_MC_OLMEC', -- CivilizationType
---		'LEADER_MC_PO_NGBE', -- LeaderType
+--		'CIVILIZATION_GWG_VEGAS', -- CivilizationType
+--		'LEADER_GWG_CHIFFRE', -- LeaderType
 --		'UNIT_MC_WEREJAGUAR', -- Type
 --		'ICON_UNIT_MC_WEREJAGUAR', -- Icon
 --		'LOC_UNIT_MC_WEREJAGUAR_NAME', -- Name
@@ -111,8 +111,8 @@ VALUES	(
 --		),
 --		
 --		(
---		'CIVILIZATION_MC_OLMEC', -- CivilizationType
---		'LEADER_MC_PO_NGBE', -- LeaderType
+--		'CIVILIZATION_GWG_VEGAS', -- CivilizationType
+--		'LEADER_GWG_CHIFFRE', -- LeaderType
 --		'IMPROVEMENT_COLOSSAL_HEAD', -- Type
 --		'ICON_IMPROVEMENT_COLOSSAL_HEAD', -- Icon
 --		'LOC_IMPROVEMENT_OLMEC_COLOSSAL_HEAD_NAME', -- Name
@@ -134,8 +134,8 @@ VALUES	(
 --		(Domain, CivilizationType, LeaderType, Type, Icon, Name, Description, SortIndex	)
 --VALUES	(
 --		'Players:Expansion1_Players', -- Domain
---		'CIVILIZATION_MC_OLMEC', -- CivilizationType
---		'LEADER_MC_PO_NGBE', -- LeaderType
+--		'CIVILIZATION_GWG_VEGAS', -- CivilizationType
+--		'LEADER_GWG_CHIFFRE', -- LeaderType
 --		'UNIT_MC_WEREJAGUAR', -- Type
 --		'ICON_UNIT_MC_WEREJAGUAR', -- Icon
 --		'LOC_UNIT_MC_WEREJAGUAR_NAME', -- Name
@@ -145,8 +145,8 @@ VALUES	(
 --		
 --		(
 --		'Players:Expansion1_Players', -- Domain
---		'CIVILIZATION_MC_OLMEC', -- CivilizationType
---		'LEADER_MC_PO_NGBE', -- LeaderType
+--		'CIVILIZATION_GWG_VEGAS', -- CivilizationType
+--		'LEADER_GWG_CHIFFRE', -- LeaderType
 --		'IMPROVEMENT_COLOSSAL_HEAD', -- Type
 --		'ICON_IMPROVEMENT_COLOSSAL_HEAD', -- Icon
 --		'LOC_IMPROVEMENT_OLMEC_COLOSSAL_HEAD_NAME', -- Name
@@ -166,8 +166,8 @@ INSERT INTO PlayerItems
 		(Domain, CivilizationType, LeaderType, Type, Icon, Name, Description, SortIndex	)
 VALUES	(
 		'Players:Expansion2_Players', -- Domain
-		'CIVILIZATION_MC_OLMEC', -- CivilizationType
-		'LEADER_MC_PO_NGBE', -- LeaderType
+		'CIVILIZATION_GWG_VEGAS', -- CivilizationType
+		'LEADER_GWG_CHIFFRE', -- LeaderType
 		'UNIT_MC_WEREJAGUAR', -- Type
 		'ICON_UNIT_MC_WEREJAGUAR', -- Icon
 		'LOC_UNIT_MC_WEREJAGUAR_NAME', -- Name
@@ -177,8 +177,8 @@ VALUES	(
 		
 		(
 		'Players:Expansion2_Players', -- Domain
-		'CIVILIZATION_MC_OLMEC', -- CivilizationType
-		'LEADER_MC_PO_NGBE', -- LeaderType
+		'CIVILIZATION_GWG_VEGAS', -- CivilizationType
+		'LEADER_GWG_CHIFFRE', -- LeaderType
 		'IMPROVEMENT_COLOSSAL_HEAD', -- Type
 		'ICON_IMPROVEMENT_COLOSSAL_HEAD', -- Icon
 		'LOC_IMPROVEMENT_OLMEC_COLOSSAL_HEAD_NAME', -- Name

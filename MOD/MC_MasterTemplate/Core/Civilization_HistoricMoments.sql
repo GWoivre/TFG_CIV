@@ -1,7 +1,4 @@
-/*
-	Civilization Historic Moments
-	Authors: MC
-*/
+
 
 -----------------------------------------------
 -- Moment Illustrations

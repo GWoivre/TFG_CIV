@@ -17,7 +17,7 @@
 
 INSERT INTO LoadingInfo
 			(LeaderType,			ForegroundImage,					BackgroundImage,					PlayDawnOfManAudio	)
-VALUES		('LEADER_MC_PO_NGBE',	'LEADER_MC_PO_NGBE_NEUTRAL',		'LEADER_MC_PO_NGBE_BACKGROUND',		0					);
+VALUES		('LEADER_GWG_CHIFFRE',	'LEADER_GWG_CHIFFRE_NEUTRAL',		'LEADER_GWG_CHIFFRE_BACKGROUND',		0					);
 
 --------------------------------------------------------------------------------------------------------------------------		
 -- Background Art
@@ -30,4 +30,4 @@ VALUES		('LEADER_MC_PO_NGBE',	'LEADER_MC_PO_NGBE_NEUTRAL',		'LEADER_MC_PO_NGBE_B
 --------------------------------------------------------------------------------------------------------------------------			
 INSERT INTO DiplomacyInfo			
 			(Type,						BackgroundImage					)
-VALUES		('LEADER_MC_PO_NGBE',		'LEADER_PO_NGBE_DIPLO_BG'		);
+VALUES		('LEADER_GWG_CHIFFRE',		'LEADER_PO_NGBE_DIPLO_BG'		);

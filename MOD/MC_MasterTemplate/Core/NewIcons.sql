@@ -1,8 +1,4 @@
-/*
-	Civilization Icons
 
-	Authors: MC
-*/
 
 -----------------------------------------------
 -- IconTextureAtlases

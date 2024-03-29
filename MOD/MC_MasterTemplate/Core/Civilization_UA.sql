@@ -2,15 +2,7 @@
 -----------------------------------------------
 -- Types
 
--- The game code cites the Civilization Ability as a 'Trait', hence we're using that term here (and throughout this section). 
-
--- This inserts the Unique Ability reference into the primary Data Types table as a recognised trait. This is mandatory, if configuring a custom trait for your civilization. The string listed under 'Type' must be used throughout the mod when referring to the TraitType.
-
--- The standard naming convention follows: TRAIT_CIVILIZATION_PREFIX_TRAITNAME
-
--- As with everywhere else, we're using our PREFIX to try and keep things unique. This also helps us differentiate the things we are creating and the things we are borrowing from the game.
-
--- Configuring a Unique Ability for your custom civilization is entirely optional, but it is typically considered appropriate for balance to configure one, such that your custom civilization matches those from the base games in terms of complexity, both for flavour and gameplay balance.
+-- Reconoce a la habilidad unica como existente en la DB y notifica a la IA que es "Buena"
 -----------------------------------------------
 
 INSERT INTO	Types
@@ -20,7 +12,7 @@ VALUES	('TRAIT_CIVILIZATION_MC_LET_THE_GODS_FEED_US',		'KIND_TRAIT'	);
 -----------------------------------------------
 -- Traits
 
--- With the TraitType defined (above), the below then inserts it into the overall Traits table. This allows it to exist in its own right, alongside other TraitType elements and ties it to the locally-referenced Name and Description text strings that name and describe the trait, respectively.
+-- Lo crea como una habilidad en la tabla de habilidades
 -----------------------------------------------
 
 INSERT INTO	Traits	
@@ -30,7 +22,7 @@ VALUES	('TRAIT_CIVILIZATION_MC_LET_THE_GODS_FEED_US',		'LOC_TRAIT_CIVILIZATION_M
 -----------------------------------------------
 -- CivilizationTraits
 
--- This defines the civilization to which the TraitType is applied (i.e. which civilization gets the Unique Ability). This is a simple matter of referencing the custom CivilizationType defined in Civilization_Config.sql and using the TraitType defined at the head of this document.
+-- La asocia a la civilizacion
 -----------------------------------------------
 
 INSERT INTO	CivilizationTraits

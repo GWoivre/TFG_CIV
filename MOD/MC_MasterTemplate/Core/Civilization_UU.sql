@@ -1,12 +1,4 @@
-/*
-	Civilization Unique Unit
 
-	Please note: the unique unit configured here replaces an existing unit in the 'food-chain' - which is the case for the majority of unique units that are included in the base game.
-
-	It is, however, not required that a unique unit replaces an existing unit.
-	
-	Authors: MC
-*/
 
 -----------------------------------------------
 -- Types

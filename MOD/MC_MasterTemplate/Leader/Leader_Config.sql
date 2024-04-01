@@ -1,66 +1,3 @@
-/*
-	Core Leader Configuration
-	Authors: MC
-*/
-
------------------------------------------------
--- Players (Base Game / Vanilla)
-
--- The below section instructs the game to make this leader available as a selection when running the base-game ruleset.
-
--- Every value inserted into the Players table is locally-defined in this mod - if working through 'in order' these should all be familiar by this stage.
-
--- Please note: this is commented-out, as this example is only compatible with Gathering Storm and above. I've left this in as an example.
------------------------------------------------
-
---INSERT INTO Players (CivilizationType, CivilizationName, CivilizationIcon, CivilizationAbilityName, CivilizationAbilityDescription, CivilizationAbilityIcon, LeaderType, LeaderName, LeaderIcon, LeaderAbilityName, LeaderAbilityDescription, LeaderAbilityIcon)
---VALUES	(	
-		-- Civilization
---		'CIVILIZATION_GWG_VEGAS', -- CivilizationType
---		'LOC_CIVILIZATION_GWG_VEGAS_NAME', -- CivilizationName
---		'ICON_CIVILIZATION_GWG_VEGAS', -- CivilizationIcon
---		'LOC_TRAIT_CIVILIZATION_MC_LET_THE_GODS_FEED_US_NAME', -- CivilizationAbilityName
---		'LOC_TRAIT_CIVILIZATION_MC_LET_THE_GODS_FEED_US_DESCRIPTION', -- CivilizationAbilityDescription
---		'ICON_CIVILIZATION_GWG_VEGAS', -- CivilizationAbilityIcon
-		
-		-- Leader
---		'LEADER_GWG_CHIFFRE', -- LeaderType
---		'LOC_LEADER_GWG_CHIFFRE_NAME', -- LeaderName
---		'ICON_LEADER_GWG_CHIFFRE', -- LeaderIcon (Portrait)
---		'LOC_TRAIT_LEADER_MC_FEAR_NOT_EXPLORATION_NAME', -- LeaderAbilityName
---		'LOC_TRAIT_LEADER_MC_FEAR_NOT_EXPLORATION_DESCRIPTION', -- LeaderAbilityDescription
---		'ICON_LEADER_GWG_CHIFFRE' -- LeaderAbilityIcon
---		);
-
------------------------------------------------
--- Players (Rise & Fall)
-
--- The below section instructs the game to make this leader available as a selection when running the Rise & Fall ruleset.
-
--- This is identical to the above, except for the additional Domain value - which instructs the game to which expansion this leader becomes available.
-
--- Please note: this is commented-out, as this example is only compatible with Gathering Storm and above. I've left this in as an example.
------------------------------------------------
-
---INSERT INTO Players (Domain, CivilizationType, CivilizationName, CivilizationIcon, CivilizationAbilityName, CivilizationAbilityDescription, CivilizationAbilityIcon, LeaderType, LeaderName, LeaderIcon, LeaderAbilityName, LeaderAbilityDescription, LeaderAbilityIcon)
---VALUES	(	
-		-- Civilization
---		'Players:Expansion1_Players', -- Domain
---		'CIVILIZATION_GWG_VEGAS', -- CivilizationType
---		'LOC_CIVILIZATION_GWG_VEGAS_NAME', -- CivilizationName
---		'ICON_CIVILIZATION_GWG_VEGAS', -- CivilizationIcon
---		'LOC_TRAIT_CIVILIZATION_MC_LET_THE_GODS_FEED_US_NAME', -- CivilizationAbilityName
---		'LOC_TRAIT_CIVILIZATION_MC_LET_THE_GODS_FEED_US_DESCRIPTION', -- CivilizationAbilityDescription
---		'ICON_CIVILIZATION_GWG_VEGAS', -- CivilizationAbilityIcon
-		
-		-- Leader
---		'LEADER_GWG_CHIFFRE', -- LeaderType
---		'LOC_LEADER_GWG_CHIFFRE_NAME', -- LeaderName
---		'ICON_LEADER_GWG_CHIFFRE', -- LeaderIcon (Portrait)
---		'LOC_TRAIT_LEADER_MC_FEAR_NOT_EXPLORATION_NAME', -- LeaderAbilityName
---		'LOC_TRAIT_LEADER_MC_FEAR_NOT_EXPLORATION_DESCRIPTION', -- LeaderAbilityDescription
---		'ICON_LEADER_GWG_CHIFFRE' -- LeaderAbilityIcon
---		);
 
 -----------------------------------------------
 -- Players (Gathering Storm)
@@ -103,10 +40,10 @@ VALUES	(
 --VALUES	(
 --		'CIVILIZATION_GWG_VEGAS', -- CivilizationType
 --		'LEADER_GWG_CHIFFRE', -- LeaderType
---		'UNIT_MC_WEREJAGUAR', -- Type
---		'ICON_UNIT_MC_WEREJAGUAR', -- Icon
---		'LOC_UNIT_MC_WEREJAGUAR_NAME', -- Name
---		'LOC_UNIT_MC_WEREJAGUAR_DESCRIPTION', -- Description
+--		'UNIT_GWG_WHALE', -- Type
+--		'ICON_UNIT_GWG_WHALE', -- Icon
+--		'LOC_UNIT_GWG_WHALE_NAME', -- Name
+--		'LOC_UNIT_GWG_WHALE_DESCRIPTION', -- Description
 --		10	-- SortIndex
 --		),
 --		
@@ -136,10 +73,10 @@ VALUES	(
 --		'Players:Expansion1_Players', -- Domain
 --		'CIVILIZATION_GWG_VEGAS', -- CivilizationType
 --		'LEADER_GWG_CHIFFRE', -- LeaderType
---		'UNIT_MC_WEREJAGUAR', -- Type
---		'ICON_UNIT_MC_WEREJAGUAR', -- Icon
---		'LOC_UNIT_MC_WEREJAGUAR_NAME', -- Name
---		'LOC_UNIT_MC_WEREJAGUAR_DESCRIPTION', -- Description
+--		'UNIT_GWG_WHALE', -- Type
+--		'ICON_UNIT_GWG_WHALE', -- Icon
+--		'LOC_UNIT_GWG_WHALE_NAME', -- Name
+--		'LOC_UNIT_GWG_WHALE_DESCRIPTION', -- Description
 --		10	-- SortIndex
 --		),
 --		
@@ -168,10 +105,10 @@ VALUES	(
 		'Players:Expansion2_Players', -- Domain
 		'CIVILIZATION_GWG_VEGAS', -- CivilizationType
 		'LEADER_GWG_CHIFFRE', -- LeaderType
-		'UNIT_MC_WEREJAGUAR', -- Type
-		'ICON_UNIT_MC_WEREJAGUAR', -- Icon
-		'LOC_UNIT_MC_WEREJAGUAR_NAME', -- Name
-		'LOC_UNIT_MC_WEREJAGUAR_DESCRIPTION', -- Description
+		'UNIT_GWG_WHALE', -- Type
+		'ICON_UNIT_GWG_WHALE', -- Icon
+		'LOC_UNIT_GWG_WHALE_NAME', -- Name
+		'LOC_UNIT_GWG_WHALE_DESCRIPTION', -- Description
 		10	-- SortIndex
 		),
 		

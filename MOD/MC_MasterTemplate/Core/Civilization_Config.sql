@@ -313,13 +313,7 @@ VALUES	('CIVILIZATION_GWG_VEGAS',	'LOC_CIVINFO_LOCATION',		'LOC_CIVINFO_GWG_VEGA
 -----------------------------------------------
 -- Start Bias
 
--- The below game-referenced values dictate the influence on your custom civilization's starting location by the terrain, features, resources and rivers that are generated on the map. The use of the below are optional.
-
--- The tiered system works on a scale from 1-5, with 1 providing the strongest bias towards the named TerrainType, FeatureType, ResourceType or indeed bias towards rivers as defined in StartBiasRivers.
-
--- TerrainType: This must be an explicit value from the list defined within the Terrains.xml in the base game.
--- FeatureType: This must be an explicit value from the list defined in a combination of Features.xml (base game), Expansion1_Features.xml (Rise & Fall) and/or Expansion2_Features.xml (Gathering Storm). Naturally, the use of FeatureType entries from either Expansion1 or Expansion2 will dictate compatibility for your mod.
--- ResourceType: This must be an explicit value from the list defined in Resrouces.xml (base game) and Expansion1_Resources.xml (Rise & Fall). The use of a resource from Expansion1 will dictate compatibility for your mod.
+--  Preferencia de spawn con prioridad de 1 a 5 siendo la 1 la mas alta
 -----------------------------------------------
 
 INSERT INTO	StartBiasTerrains

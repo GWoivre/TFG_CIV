@@ -15,7 +15,7 @@
 -- IconsPerColumn: This defines the number of icons there are along the entire height of the atlas file. The total height of the DDS file should be equal to IconSize x IconsPerColumn. If you are creating every icon as a separate file, the value here will always be 1.
 -- Filename: Again, fairly self-explanatory. This should be the complete, case-sensitive name of the DDS file that pertains to the graphic for that entry. All files referenced here must be located in the root of the Textures folder.
 
--- A quick note on the ICON_ATLAS_MC_WEREJAGUAR atlas. I've left this in here, configured in this way, to illustrate how to use multi-icon atlases. In this example, each WerejaguarAtlasXXX.dds file has two icons - the Unique Unit icon and Unique Unit portrait. We'll describe further down how we differentiate to the game which should be used for which function through the IconDefinitions section.
+-- A quick note on the ICON_ATLAS_GWG_WHALE atlas. I've left this in here, configured in this way, to illustrate how to use multi-icon atlases. In this example, each WerejaguarAtlasXXX.dds file has two icons - the Unique Unit icon and Unique Unit portrait. We'll describe further down how we differentiate to the game which should be used for which function through the IconDefinitions section.
 
 -- Please note: I have included a sample configuration for the ICON_ATLAS_COLOSSAL_HEAD but you may note that this is not referenced in the IconDefinitions. The ICON_COLOSSAL_HEAD exists in the base-game and therefore this is just to illustrate which icon-sizes are required for an Improvement.
 -----------------------------------------------
@@ -42,15 +42,15 @@ VALUES	('ICON_ATLAS_GWG_VEGAS',					22,	 		1,				1,					'OlmecAtlas22.dds'			),
 		('ICON_ATLAS_GWG_CHIFFRE',				80,	 		1,				1,					'PoNgbeIcon80.dds'			),
 		('ICON_ATLAS_GWG_CHIFFRE',				256,	 	1,				1,					'PoNgbeIcon256.dds'			),
 		
-		('ICON_ATLAS_MC_WEREJAGUAR',			22,			2,				1,					'WerejaguarAtlas22.dds'		),
-		('ICON_ATLAS_MC_WEREJAGUAR',			32,			2,				1,					'WerejaguarAtlas32.dds'		),
-		('ICON_ATLAS_MC_WEREJAGUAR',			38,			2,				1,					'WerejaguarAtlas38.dds'		),
-		('ICON_ATLAS_MC_WEREJAGUAR',			50,			2,				1,					'WerejaguarAtlas50.dds'		),
-		('ICON_ATLAS_MC_WEREJAGUAR',			70,			2,				1,					'WerejaguarAtlas70.dds'		),
-		('ICON_ATLAS_MC_WEREJAGUAR',			80,			2,				1,					'WerejaguarAtlas80.dds'		),
-		('ICON_ATLAS_MC_WEREJAGUAR',			95,			2,				1,					'WerejaguarAtlas95.dds'		),
-		('ICON_ATLAS_MC_WEREJAGUAR',			200,		2,				1,					'WerejaguarAtlas200.dds'	),
-		('ICON_ATLAS_MC_WEREJAGUAR',			256,		2,				1,					'WerejaguarAtlas256.dds'	),
+		('ICON_ATLAS_GWG_WHALE',			22,			2,				1,					'WerejaguarAtlas22.dds'		),
+		('ICON_ATLAS_GWG_WHALE',			32,			2,				1,					'WerejaguarAtlas32.dds'		),
+		('ICON_ATLAS_GWG_WHALE',			38,			2,				1,					'WerejaguarAtlas38.dds'		),
+		('ICON_ATLAS_GWG_WHALE',			50,			2,				1,					'WerejaguarAtlas50.dds'		),
+		('ICON_ATLAS_GWG_WHALE',			70,			2,				1,					'WerejaguarAtlas70.dds'		),
+		('ICON_ATLAS_GWG_WHALE',			80,			2,				1,					'WerejaguarAtlas80.dds'		),
+		('ICON_ATLAS_GWG_WHALE',			95,			2,				1,					'WerejaguarAtlas95.dds'		),
+		('ICON_ATLAS_GWG_WHALE',			200,		2,				1,					'WerejaguarAtlas200.dds'	),
+		('ICON_ATLAS_GWG_WHALE',			256,		2,				1,					'WerejaguarAtlas256.dds'	),
 		
 		('ICON_ATLAS_COLOSSAL_HEAD',			38,			1,				1,					'ColossalHead38.dds'		),
 		('ICON_ATLAS_COLOSSAL_HEAD',			40,			1,				1,					'ColossalHead40.dds'		),
@@ -64,12 +64,12 @@ VALUES	('ICON_ATLAS_GWG_VEGAS',					22,	 		1,				1,					'OlmecAtlas22.dds'			),
 
 -- With the IconTextureAtlases defined, we now tie each Atlas to a specific icon-type.
 
--- The icon Name is defined in the table below and the Atlas tells the game where to pull the graphic from. The Index field directs the game to the right portion of the file, should there be more than one icon. The Index is an integer value in the form of an array - starting from 0, with icons numbered from left-to-right, row-by-row. In this way, we use the ICON_ATLAS_MC_WEREJAGUAR Atlas, which has two icons in a single file, to drive the display of two distinct in-game icons.
+-- The icon Name is defined in the table below and the Atlas tells the game where to pull the graphic from. The Index field directs the game to the right portion of the file, should there be more than one icon. The Index is an integer value in the form of an array - starting from 0, with icons numbered from left-to-right, row-by-row. In this way, we use the ICON_ATLAS_GWG_WHALE Atlas, which has two icons in a single file, to drive the display of two distinct in-game icons.
 -----------------------------------------------
 
 INSERT INTO IconDefinitions
 		(Name,										Atlas,							'Index'				)
 VALUES	('ICON_CIVILIZATION_GWG_VEGAS',				'ICON_ATLAS_GWG_VEGAS',			0					),
 		('ICON_LEADER_GWG_CHIFFRE',					'ICON_ATLAS_GWG_CHIFFRE',		0					),
-		('ICON_UNIT_MC_WEREJAGUAR_PORTRAIT',		'ICON_ATLAS_MC_WEREJAGUAR',		0					),
-		('ICON_UNIT_MC_WEREJAGUAR',					'ICON_ATLAS_MC_WEREJAGUAR',		1					);
+		('ICON_UNIT_GWG_WHALE_PORTRAIT',		'ICON_ATLAS_GWG_WHALE',		0					),
+		('ICON_UNIT_GWG_WHALE',					'ICON_ATLAS_GWG_WHALE',		1					);

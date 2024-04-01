@@ -36,11 +36,11 @@ VALUES
 -- Civilization Unique Unit
 -----------------------------------------------
 
-	('en_US',	'LOC_UNIT_MC_WEREJAGUAR_NAME',	'Gambler'	),
-	('en_US',	'LOC_UNIT_MC_WEREJAGUAR_DESCRIPTION',	 
+	('en_US',	'LOC_UNIT_GWG_WHALE_NAME',	'Gambler'	),
+	('en_US',	'LOC_UNIT_GWG_WHALE_DESCRIPTION',	 
 	'The elite warriors of the Olmec military, these fearsome, masked warriors replace the Spearman and receive a [ICON_Strength] Combat Strength boost during [ICON_Glory_Golden_Age] Golden Ages.'	),
 
-	('en_US',	'LOC_ABILITY_MC_WEREJAGUAR',  '+5 [ICON_Strength] Combat Strength during a [ICON_Glory_Golden_Age] Golden Age.'	),
+	('en_US',	'LOC_ABILITY_GWG_WHALE',  '+5 [ICON_Strength] Combat Strength during a [ICON_Glory_Golden_Age] Golden Age.'	),
 
 -----------------------------------------------
 -- Mountains

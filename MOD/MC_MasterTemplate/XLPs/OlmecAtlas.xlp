@@ -10,8 +10,8 @@
 	<m_PackageName text="UI/Icons"/>
 	<m_Entries>
 		<Element>
-			<m_EntryID text="LEADER_PO_NGBE_DIPLO_BG"/>
-			<m_ObjectName text="LEADER_PO_NGBE_DIPLO_BG"/>
+			<m_EntryID text="LEADER_CHIFFRE_DIPLO_BG"/>
+			<m_ObjectName text="LEADER_CHIFFRE_DIPLO_BG"/>
 		</Element>
 		<Element>
 			<m_EntryID text="OlmecAtlas200"/>

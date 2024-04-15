@@ -160,10 +160,10 @@
     <XLP Include="Textures\LEADER_MC_PO_NGBE_NEUTRAL.tex">
       <SubType>Content</SubType>
     </XLP>
-    <XLP Include="Textures\LEADER_PO_NGBE_DIPLO_BG.dds">
+    <XLP Include="Textures\LEADER_CHIFFRE_DIPLO_BG.dds">
       <SubType>Content</SubType>
     </XLP>
-    <XLP Include="Textures\LEADER_PO_NGBE_DIPLO_BG.tex">
+    <XLP Include="Textures\LEADER_CHIFFRE_DIPLO_BG.tex">
       <SubType>Content</SubType>
     </XLP>
     <XLP Include="Textures\OlmecAtlas200.dds">

@@ -46,56 +46,35 @@ VALUES
 -- Mountains
 -----------------------------------------------
 
-	('en_US',	'LOC_NAMED_MOUNTAIN_CORDILLERA_NEOVOLCANICA',		'Cordillera Neovolcanica'	),
-	('en_US',	'LOC_NAMED_MOUNTAIN_MEXICAN_PLATEAU',				'Mexican Plateau'			),
-	('en_US',	'LOC_NAMED_MOUNTAIN_SIERRA_MADRE_OCCIDENTAL',		'Sierra Madre Occidental'	),
-	('en_US',	'LOC_NAMED_MOUNTAIN_SIERRA_MADRE_DEL_SUR',			'Sierra Madre del Sur'		),
-	('en_US',	'LOC_NAMED_MOUNTAIN_SIERRA_MADRE_ORIENTAL',			'Sierra Madre Oriental'		),
-	('en_US',	'LOC_NAMED_MOUNTAIN_CHIAPAS',						'Chiapas'					),
-	('en_US',	'LOC_NAMED_MOUNTAIN_MONTANAS_GUATEMALA',			'Montañas Guatemala'		),
+	('en_US',	'LOC_NAMED_MOUNTAIN_MOUNT_CHARLESTON',		'Mount charleston'	),
+	('en_US',	'LOC_NAMED_MOUNTAIN_FRENCHMAN_MOUNTAIN',				'Frenchman mountain'			),
+	('en_US',	'LOC_NAMED_MOUNTAIN_CALICO_1',		'Calico 1'	),
+	('en_US',	'LOC_NAMED_MOUNTAIN_PETROGLYPH_WALL',			'Petroglyph wall'		),
+	('en_US',	'LOC_NAMED_MOUNTAIN_GASS_PEAK',			'Gass peak'		),
+	('en_US',	'LOC_NAMED_MOUNTAIN_LA_MADRE',						'La madre'					),
+	('en_US',	'LOC_NAMED_MOUNTAIN_SPING_MOUNTAINS',			'Spring mountains'		),
 
 -----------------------------------------------
 -- Rivers
 -----------------------------------------------
 
-	('en_US',	'LOC_NAMED_RIVER_GRANDE',				'Río Grande'				),
-	('en_US',	'LOC_NAMED_RIVER_USUMACINTA',			'Río Usumacinta'			),
-	('en_US',	'LOC_NAMED_RIVER_NAZAS',				'Río Nazas'					),
-	('en_US',	'LOC_NAMED_RIVER_AGUANAVAL',			'Río Aguanaval'				),
-	('en_US',	'LOC_NAMED_RIVER_BALSAS',				'Río Balsas'				),
-	('en_US',	'LOC_NAMED_RIVER_CULIACAN',				'Río Culiacan'				),
-	('en_US',	'LOC_NAMED_RIVER_LERMA',				'Río Lerma'					),
-	('en_US',	'LOC_NAMED_RIVER_GRANDE_DE_SANTIAGO',	'Río Grande de Santiago'	),
-	('en_US',	'LOC_NAMED_RIVER_FUERTE',				'Río Fuerte'				),
-	('en_US',	'LOC_NAMED_RIVER_CONCHOS',				'Río Conchos'				),
+	('en_US',	'LOC_NAMED_RIO_COLORADO',				'Colorado River'				),
+	('en_US',	'LOC_NAMED_RIVER_LAS_VEGAS_WASH',			'Las Vegas Wash'			),
+	('en_US',	'LOC_NAMED_RIVER_THOUSAND_SPINGS_CREEK',				'Thousand Springs Creek'					),
+	('en_US',	'LOC_NAMED_RIVER_VIRGIN',			'Virgin River'				),
+	('en_US',	'LOC_NAMED_RIVER_VALLEY_WASH',				'Valley Wash'				),
+	('en_US',	'LOC_NAMED_RIVER_MUDDY',				'Muddy River'				),
 
------------------------------------------------
--- Lakes
------------------------------------------------
 
-	('en_US',	'LOC_NAMED_LAKE_CHAPALA',				'Chapala'			),
-	('en_US',	'LOC_NAMED_LAKE_PATZCUARO',				'Pátzcuaro'			),
-	('en_US',	'LOC_NAMED_LAKE_BACALAR',				'Bacalar'			),
-	('en_US',	'LOC_NAMED_LAKE_LAGUNA_CATEMACO',		'Laguna Catemaco'	),
-	('en_US',	'LOC_NAMED_LAKE_EL_CARACOL',			'El Caracol'		),
+
 
 -----------------------------------------------
 -- Deserts
 -----------------------------------------------
 
-	('en_US',	'LOC_NAMED_DESERT_SONORA',		'Desierto de Soñora'		),
-	('en_US',	'LOC_NAMED_DESERT_LA_GUAJIRA',	'Desierto La Guajira'		),
+	('en_US',	'LOC_NAMED_MOJAVE_DESERT',		'Desierto de Soñora'		),
+	('en_US',	'LOC_NAMED_DEATH_VALLEY',	'Desierto La Guajira'		),
 	('en_US',	'LOC_NAMED_DESERT_SECHURA',		'Desierto de Sechura'		),
-
------------------------------------------------
--- Volcanoes
------------------------------------------------
-
-	('en_US',	'LOC_NAMED_VOLCANO_PICO_DE_ORIZABA',	'Pico de Orizaba'			),
-	('en_US',	'LOC_NAMED_VOLCANO_TAJUMULCO',			'Tajumulco'					),
-	('en_US',	'LOC_NAMED_VOLCANO_TACANA',				'Volcan Tacana'				),
-	('en_US',	'LOC_NAMED_VOLCANO_SANTIAGUITO',		'Santiaguito'				),
-	('en_US',	'LOC_NAMED_VOLCANO_CHAPARRASTIQUE',		'Chaparrastique'			),
 
 -----------------------------------------------
 -- Cities

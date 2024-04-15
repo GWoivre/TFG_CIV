@@ -6,18 +6,12 @@ Opened output file: C:\Users\abedu\OneDrive\Documentos\My Games\Sid Meier's Civi
 Could not load digest key: ''.  Using mod key to sign BLP.
 Starting 'UI/Icons'
 Loading error asset: (UIErrorTexture)
-Replacing asset: (LEADER_CHIFFRE_DIPLO_BG) in entry (LEADER_CHIFFRE_DIPLO_BG) with error asset
 Replacing asset: (LEADER_GWG_CHIFFRE_NEUTRAL) in entry (LEADER_GWG_CHIFFRE_NEUTRAL) with error asset
 Replacing asset: (LEADER_GWG_CHIFFRE_BACKGROUND) in entry (LEADER_GWG_CHIFFRE_BACKGROUND) with error asset
-The following 3 entities had errors:
-Textures: 3
-    LEADER_CHIFFRE_DIPLO_BG
+The following 2 entities had errors:
+Textures: 2
     LEADER_GWG_CHIFFRE_NEUTRAL
     LEADER_GWG_CHIFFRE_BACKGROUND
-
-****** Log from Texture: 'LEADER_CHIFFRE_DIPLO_BG' (ERRORS!!) ********
---------------
-I/O error reading XML: C:\Users\abedu\OneDrive\Documentos\Firaxis ModBuddy\Civilization VI\TFG_CIV_GWG\MC_MasterTemplate/Textures/LEADER_CHIFFRE_DIPLO_BG.tex
 
 ****** Log from Texture: 'LEADER_GWG_CHIFFRE_NEUTRAL' (ERRORS!!) ********
 --------------
@@ -26,9 +20,9 @@ I/O error reading XML: C:\Users\abedu\OneDrive\Documentos\Firaxis ModBuddy\Civil
 ****** Log from Texture: 'LEADER_GWG_CHIFFRE_BACKGROUND' (ERRORS!!) ********
 --------------
 I/O error reading XML: C:\Users\abedu\OneDrive\Documentos\Firaxis ModBuddy\Civilization VI\TFG_CIV_GWG\MC_MasterTemplate/Textures/LEADER_GWG_CHIFFRE_BACKGROUND.tex
-Load finished for: 'UI/Icons' in 0.015 seconds
-Cook finished for: 'UI/Icons' in 0.041 seconds
-Disk write finished for: 'UI/Icons' in 0.077 seconds
-Cleanup finished for: 'UI/Icons' in 0.001 seconds
+Load finished for: 'UI/Icons' in 0.035 seconds
+Cook finished for: 'UI/Icons' in 0.287 seconds
+Disk write finished for: 'UI/Icons' in 0.085 seconds
+Cleanup finished for: 'UI/Icons' in 0.003 seconds
 XLP cook completed with success.
-Cook completed in 0.149 seconds
+Cook completed in 0.424 seconds

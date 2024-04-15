@@ -61,8 +61,8 @@ VALUES 		('LEADER_GWG_CHIFFRE',	'AGENDA_GWG_CHIFFRE'		);
 
 INSERT INTO ExclusiveAgendas
 			(AgendaOne,				AgendaTwo					)
-VALUES 		('AGENDA_GWG_CHIFFRE',	'AGENDA_INDUSTRIALIST'		);
-
+VALUES 		('AGENDA_GWG_CHIFFRE',	'AGENDA_DARWINIST'		);
+-- Con darwinista no porque gana mas al no tener a nadie en guerra
 -----------------------------------------------
 -- TraitModifiers
 
@@ -103,20 +103,20 @@ VALUES		('AGENDA_MODIFIER_GWG_CHIFFRE_UNHAPPY',		'Sample',	'LOC_TOOLTIP_SAMPLE_D
 
 INSERT INTO ModifierArguments
 			(ModifierId,							Name,							Value												)
-VALUES		('AGENDA_MODIFIER_GWG_CHIFFRE_UNHAPPY',	'InitialValue',					-5													),
-			('AGENDA_MODIFIER_GWG_CHIFFRE_UNHAPPY',	'IncrementValue',				-1													),
+VALUES		('AGENDA_MODIFIER_GWG_CHIFFRE_UNHAPPY',	'InitialValue',					0													),
+			('AGENDA_MODIFIER_GWG_CHIFFRE_UNHAPPY',	'IncrementValue',				-2													),
 			('AGENDA_MODIFIER_GWG_CHIFFRE_UNHAPPY',	'IncrementTurns',				-10													),
 			('AGENDA_MODIFIER_GWG_CHIFFRE_UNHAPPY',	'MaxValue',						-25													),
 			('AGENDA_MODIFIER_GWG_CHIFFRE_UNHAPPY',	'StatementKey',					'LOC_DIPLO_WARNING_LEADER_GWG_CHIFFRE_REASON_ANY'	),
 			('AGENDA_MODIFIER_GWG_CHIFFRE_UNHAPPY',	'SimpleModifierDescription',	'LOC_DIPLO_MODIFIER_GWG_CHIFFRE_UNHAPPY'				),
 	
-			('AGENDA_MODIFIER_GWG_CHIFFRE_HAPPY',	'InitialValue',					5													),
+			('AGENDA_MODIFIER_GWG_CHIFFRE_HAPPY',	'InitialValue',					10													),
 			('AGENDA_MODIFIER_GWG_CHIFFRE_HAPPY',	'IncrementValue',				1													),
 			('AGENDA_MODIFIER_GWG_CHIFFRE_HAPPY',	'IncrementTurns',				10													),
-			('AGENDA_MODIFIER_GWG_CHIFFRE_HAPPY',	'MaxValue',						12													),
+			('AGENDA_MODIFIER_GWG_CHIFFRE_HAPPY',	'MaxValue',						30													),
 			('AGENDA_MODIFIER_GWG_CHIFFRE_HAPPY',	'StatementKey',					'LOC_DIPLO_KUDO_LEADER_GWG_CHIFFRE_REASON_ANY'		),
 			('AGENDA_MODIFIER_GWG_CHIFFRE_HAPPY',	'SimpleModifierDescription',	'LOC_DIPLO_MODIFIER_GWG_CHIFFRE_HAPPY'				);
-			
+			-- Aumento sus valores de amistad significativamente porque se basa en alianzas
 -----------------------------------------------
 -- RequirementSets
 
@@ -138,8 +138,8 @@ INSERT INTO RequirementSetRequirements
 			(RequirementSetId,				RequirementId						)
 VALUES		('REQSET_GWG_CHIFFRE_UNHAPPY',	'REQUIRES_MAJOR_CIV_OPPONENT'		),
 			('REQSET_GWG_CHIFFRE_UNHAPPY',	'REQUIRES_MET_10_TURNS_AGO'			),
-			('REQSET_GWG_CHIFFRE_UNHAPPY',	'REQUIRES_HAS_LOW_FAITH'			),
+			('REQSET_GWG_CHIFFRE_UNHAPPY',	'REQUIRES_HAS_LOW_INCOME'			),
 			('REQSET_GWG_CHIFFRE_HAPPY',		'REQUIRES_MAJOR_CIV_OPPONENT'		),
 			('REQSET_GWG_CHIFFRE_HAPPY',		'REQUIRES_MET_10_TURNS_AGO'			),
-			('REQSET_GWG_CHIFFRE_HAPPY',		'REQUIRES_HAS_HIGH_CULTURE'			),
-			('REQSET_GWG_CHIFFRE_HAPPY',		'REQUIRES_HAS_HIGH_SCIENCE'			);
+			('REQSET_GWG_CHIFFRE_HAPPY',		'REQUIRES_HAS_HIGH_INCOME'			);
+			-- la dependencia de amistad es cuanto dinero tienen

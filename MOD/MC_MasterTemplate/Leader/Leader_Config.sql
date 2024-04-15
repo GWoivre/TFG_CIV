@@ -2,7 +2,7 @@
 -----------------------------------------------
 -- Players (Gathering Storm)
 
--- Para que sea fisponible
+-- Para que sea disponible
 
 -- Compatibility Gathering Storm.
 -----------------------------------------------

@@ -20,27 +20,27 @@ VALUES
 -- Civilization Unique Ability
 -----------------------------------------------
 
-	('en_US',	'LOC_TRAIT_CIVILIZATION_MC_LET_THE_GODS_FEED_US_NAME',				'Gambling'				),
+	('en_US',	'LOC_TRAIT_CIVILIZATION_MC_LET_THE_GODS_FEED_US_NAME',				'Nombre del UA'				),
 	('en_US',	'LOC_TRAIT_CIVILIZATION_MC_LET_THE_GODS_FEED_US_DESCRIPTION',	
-	'Gambling'	),
+	'Descripcion del UA'	),
 
 -----------------------------------------------
 -- Civilization Unique Infrastructure (Improvement)
 -----------------------------------------------
 
-	('en_US',	'LOC_IMPROVEMENT_OLMEC_COLOSSAL_HEAD_NAME',				'Gambling'								),
+	('en_US',	'LOC_IMPROVEMENT_OLMEC_COLOSSAL_HEAD_NAME',				'Nombre del UI'								),
 	('en_US',	'LOC_IMPROVEMENT_OLMEC_COLOSSAL_HEAD_DESCRIPTION',
-	'Gambling [NEWLINE][NEWLINE] +1 [ICON_Faith] Faith, +1 [ICON_SCIENCE] Science. +1 [ICON_Faith] Faith if adjacent to a Campus, +1 [ICON_Science] Science if adjacent to a Holy Site. Cities with at least four Colossal heads provide a [ICON_GreatArtist] Great Artist Point. May be built on Rainforest. Cannot be constructed adjacent to another Colossal Head.'	),
+	'Desc del UI [NEWLINE][NEWLINE] +1 [ICON_Faith] Faith, +1 [ICON_SCIENCE] Science. +1 [ICON_Faith] Faith if adjacent to a Campus, +1 [ICON_Science] Science if adjacent to a Holy Site. Cities with at least four Colossal heads provide a [ICON_GreatArtist] Great Artist Point. May be built on Rainforest. Cannot be constructed adjacent to another Colossal Head.'	),
 
 -----------------------------------------------
 -- Civilization Unique Unit
 -----------------------------------------------
 
-	('en_US',	'LOC_UNIT_GWG_WHALE_NAME',	'Gambler'	),
+	('en_US',	'LOC_UNIT_GWG_WHALE_NAME',	'nombre del UU'	),
 	('en_US',	'LOC_UNIT_GWG_WHALE_DESCRIPTION',	 
-	'The elite warriors of the Olmec military, these fearsome, masked warriors replace the Spearman and receive a [ICON_Strength] Combat Strength boost during [ICON_Glory_Golden_Age] Golden Ages.'	),
+	'Desc del UU'	),
 
-	('en_US',	'LOC_ABILITY_GWG_WHALE',  '+5 [ICON_Strength] Combat Strength during a [ICON_Glory_Golden_Age] Golden Age.'	),
+	('en_US',	'LOC_ABILITY_GWG_WHALE',  'Abilidad del UU'	),
 
 -----------------------------------------------
 -- Mountains
@@ -72,63 +72,63 @@ VALUES
 -- Deserts
 -----------------------------------------------
 
-	('en_US',	'LOC_NAMED_MOJAVE_DESERT',		'Desierto de Soñora'		),
-	('en_US',	'LOC_NAMED_DEATH_VALLEY',	'Desierto La Guajira'		),
-	('en_US',	'LOC_NAMED_DESERT_SECHURA',		'Desierto de Sechura'		),
+	('en_US',	'LOC_NAMED_MOJAVE_DESERT',		'Mojave Desert'		),
+	('en_US',	'LOC_NAMED_DEATH_VALLEY',	'Death Valley'		),
+
 
 -----------------------------------------------
 -- Cities
 -----------------------------------------------
 
-	('en_US',	'LOC_CITY_NAME_GWG_VEGAS_1',  'San Lorenzo'),
-	('en_US',	'LOC_CITY_NAME_GWG_VEGAS_2',  'La Velta'),
-	('en_US',	'LOC_CITY_NAME_GWG_VEGAS_3',  'Potrero Nuevo'),
-	('en_US',	'LOC_CITY_NAME_GWG_VEGAS_4',  'San Andrés'),
-	('en_US',	'LOC_CITY_NAME_GWG_VEGAS_5',  'Cobata'),
-	('en_US',	'LOC_CITY_NAME_GWG_VEGAS_6',  'Llano del Jicaro'),
-	('en_US',	'LOC_CITY_NAME_GWG_VEGAS_7',  'San Martin Pajapan'),
-	('en_US',	'LOC_CITY_NAME_GWG_VEGAS_8',  'Arroyo Sonso'),
-	('en_US',	'LOC_CITY_NAME_GWG_VEGAS_9',  'Las Limas'),
-	('en_US',	'LOC_CITY_NAME_GWG_VEGAS_10',  'El Manati'),
-	('en_US',	'LOC_CITY_NAME_GWG_VEGAS_11',  'Cascajal'),
-	('en_US',	'LOC_CITY_NAME_GWG_VEGAS_12',  'Jilotepeque'),
-	('en_US',	'LOC_CITY_NAME_GWG_VEGAS_13',  'Pequeno Lorenzo'),
-	('en_US',	'LOC_CITY_NAME_GWG_VEGAS_14',  'Jicaro Nuevo'),
-	('en_US',	'LOC_CITY_NAME_GWG_VEGAS_15',  'Limas del Nuevo'),
+	('en_US',	'LOC_CITY_NAME_GWG_VEGAS_1',  'The Venetian'),
+	('en_US',	'LOC_CITY_NAME_GWG_VEGAS_2',  'MGM Grand'),
+	('en_US',	'LOC_CITY_NAME_GWG_VEGAS_3',  'Caesars Palace'),
+	('en_US',	'LOC_CITY_NAME_GWG_VEGAS_4',  'The Strat'),
+	('en_US',	'LOC_CITY_NAME_GWG_VEGAS_5',  'Bellagio'),
+	('en_US',	'LOC_CITY_NAME_GWG_VEGAS_6',  'Luxor'),
+	('en_US',	'LOC_CITY_NAME_GWG_VEGAS_7',  'The Mirrage'),
+	('en_US',	'LOC_CITY_NAME_GWG_VEGAS_8',  'Red Rock'),
+	('en_US',	'LOC_CITY_NAME_GWG_VEGAS_9',  'Mandalay Bay'),
+	('en_US',	'LOC_CITY_NAME_GWG_VEGAS_10',  'New York-New York'),
+	('en_US',	'LOC_CITY_NAME_GWG_VEGAS_11',  'Planet Hollywood'),
+	('en_US',	'LOC_CITY_NAME_GWG_VEGAS_12',  'Tresaure Island'),
+	('en_US',	'LOC_CITY_NAME_GWG_VEGAS_13',  'Aria'),
+	('en_US',	'LOC_CITY_NAME_GWG_VEGAS_14',  'Golden Nugget'),
+	('en_US',	'LOC_CITY_NAME_GWG_VEGAS_15',  'Four Queens'),
 	
 -----------------------------------------------
 -- Citizens
 -----------------------------------------------
 	
-	('en_US',	'LOC_CITIZEN_GWG_VEGAS_MALE_1',		'Ikal'		),
-	('en_US',	'LOC_CITIZEN_GWG_VEGAS_MALE_2',		'Tanok'		),
-	('en_US',	'LOC_CITIZEN_GWG_VEGAS_MALE_3',		'Kabil'		),
-	('en_US',	'LOC_CITIZEN_GWG_VEGAS_MALE_4',		'Kasakir'	),
-	('en_US',	'LOC_CITIZEN_GWG_VEGAS_MALE_5',		'Irepani'	),
-	('en_US',	'LOC_CITIZEN_GWG_VEGAS_MALE_6',		'Iktan'		),
-	('en_US',	'LOC_CITIZEN_GWG_VEGAS_MALE_7',		'Seneca'	),
-	('en_US',	'LOC_CITIZEN_GWG_VEGAS_MALE_8',		'Tlayolotl'	),
-	('en_US',	'LOC_CITIZEN_GWG_VEGAS_MALE_9',		'Rahui'		),
-	('en_US',	'LOC_CITIZEN_GWG_VEGAS_MALE_10',		'Tsijiari'	),
-	('en_US',	'LOC_CITIZEN_GWG_VEGAS_FEMALE_1',	'Ajaniame'	),
-	('en_US',	'LOC_CITIZEN_GWG_VEGAS_FEMALE_2',	'Taiyari'	),
-	('en_US',	'LOC_CITIZEN_GWG_VEGAS_FEMALE_3',	'Shanarani'	),
-	('en_US',	'LOC_CITIZEN_GWG_VEGAS_FEMALE_4',	'Erendirani'),
-	('en_US',	'LOC_CITIZEN_GWG_VEGAS_FEMALE_5',	'Soona'		),
-	('en_US',	'LOC_CITIZEN_GWG_VEGAS_FEMALE_6',	'Yatzil'	),
-	('en_US',	'LOC_CITIZEN_GWG_VEGAS_FEMALE_7',	'Nakawe'	),
-	('en_US',	'LOC_CITIZEN_GWG_VEGAS_FEMALE_8',	'Inda Jani'	),
-	('en_US',	'LOC_CITIZEN_GWG_VEGAS_FEMALE_9',	'Axochitl'	),
-	('en_US',	'LOC_CITIZEN_GWG_VEGAS_FEMALE_10',	'Sesasi'	),
+	('en_US',	'LOC_CITIZEN_GWG_VEGAS_MALE_1',		'John'		),
+	('en_US',	'LOC_CITIZEN_GWG_VEGAS_MALE_2',		'Dick'		),
+	('en_US',	'LOC_CITIZEN_GWG_VEGAS_MALE_3',		'Brandon'		),
+	('en_US',	'LOC_CITIZEN_GWG_VEGAS_MALE_4',		'Anthony'	),
+	('en_US',	'LOC_CITIZEN_GWG_VEGAS_MALE_5',		'Ian'	),
+	('en_US',	'LOC_CITIZEN_GWG_VEGAS_MALE_6',		'Robbert'		),
+	('en_US',	'LOC_CITIZEN_GWG_VEGAS_MALE_7',		'Tom'	),
+	('en_US',	'LOC_CITIZEN_GWG_VEGAS_MALE_8',		'Isaac'	),
+	('en_US',	'LOC_CITIZEN_GWG_VEGAS_MALE_9',		'Kelsier'		),
+	('en_US',	'LOC_CITIZEN_GWG_VEGAS_MALE_10',		'Moneybags'	),
+	('en_US',	'LOC_CITIZEN_GWG_VEGAS_FEMALE_1',	'Taylor'	),
+	('en_US',	'LOC_CITIZEN_GWG_VEGAS_FEMALE_2',	'Vin'	),
+	('en_US',	'LOC_CITIZEN_GWG_VEGAS_FEMALE_3',	'Beyonce'	),
+	('en_US',	'LOC_CITIZEN_GWG_VEGAS_FEMALE_4',	'Megan'),
+	('en_US',	'LOC_CITIZEN_GWG_VEGAS_FEMALE_5',	'Lois'		),
+	('en_US',	'LOC_CITIZEN_GWG_VEGAS_FEMALE_6',	'Mary'	),
+	('en_US',	'LOC_CITIZEN_GWG_VEGAS_FEMALE_7',	'Liberty'	),
+	('en_US',	'LOC_CITIZEN_GWG_VEGAS_FEMALE_8',	'Ms Dollar'	),
+	('en_US',	'LOC_CITIZEN_GWG_VEGAS_FEMALE_9',	'Ms information'	),
+	('en_US',	'LOC_CITIZEN_GWG_VEGAS_FEMALE_10',	'name 100 Woman challenge'	),
 	
 -----------------------------------------------
 -- Info
 -----------------------------------------------
 
-	('en_US',	'LOC_CIVINFO_GWG_VEGAS_LOCATION',		'Mesoamerica'		),
-	('en_US',	'LOC_CIVINFO_GWG_VEGAS_SIZE',			'2.3 million km²'	),
-	('en_US',	'LOC_CIVINFO_GWG_VEGAS_POPULATION',		'c. 14 million'		),
-	('en_US',	'LOC_CIVINFO_GWG_VEGAS_CAPITAL',			'San Lorenzo'		),
+	('en_US',	'LOC_CIVINFO_GWG_VEGAS_LOCATION',		'US, Nevada'		),
+	('en_US',	'LOC_CIVINFO_GWG_VEGAS_SIZE',			'367.53 km²'	),
+	('en_US',	'LOC_CIVINFO_GWG_VEGAS_POPULATION',		'c. 656.274'		),
+	('en_US',	'LOC_CIVINFO_GWG_VEGAS_CAPITAL',			'Las Vegas'		),
 
 -----------------------------------------------
 -- Civilopedia

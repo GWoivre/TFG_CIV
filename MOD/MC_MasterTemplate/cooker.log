@@ -21,8 +21,8 @@ I/O error reading XML: C:\Users\abedu\OneDrive\Documentos\Firaxis ModBuddy\Civil
 --------------
 I/O error reading XML: C:\Users\abedu\OneDrive\Documentos\Firaxis ModBuddy\Civilization VI\TFG_CIV_GWG\MC_MasterTemplate/Textures/LEADER_GWG_CHIFFRE_BACKGROUND.tex
 Load finished for: 'UI/Icons' in 0.035 seconds
-Cook finished for: 'UI/Icons' in 0.287 seconds
-Disk write finished for: 'UI/Icons' in 0.085 seconds
-Cleanup finished for: 'UI/Icons' in 0.003 seconds
+Cook finished for: 'UI/Icons' in 0.291 seconds
+Disk write finished for: 'UI/Icons' in 0.094 seconds
+Cleanup finished for: 'UI/Icons' in 0.002 seconds
 XLP cook completed with success.
-Cook completed in 0.424 seconds
+Cook completed in 0.440 seconds

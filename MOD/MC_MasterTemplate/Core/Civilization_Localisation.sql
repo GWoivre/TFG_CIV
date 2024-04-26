@@ -20,16 +20,16 @@ VALUES
 -- Civilization Unique Ability
 -----------------------------------------------
 
-	('en_US',	'LOC_TRAIT_CIVILIZATION_MC_LET_THE_GODS_FEED_US_NAME',				'Nombre del UA'				),
-	('en_US',	'LOC_TRAIT_CIVILIZATION_MC_LET_THE_GODS_FEED_US_DESCRIPTION',	
+	('en_US',	'LOC_TRAIT_CIVILIZATION_GWG_DONT_STOP_GAMBLING_NAME',				'Nombre del UA'				),
+	('en_US',	'LOC_TRAIT_CIVILIZATION_GWG_DONT_STOP_GAMBLING_DESCRIPTION',	
 	'Descripcion del UA'	),
 
 -----------------------------------------------
 -- Civilization Unique Infrastructure (Improvement)
 -----------------------------------------------
 
-	('en_US',	'LOC_IMPROVEMENT_OLMEC_COLOSSAL_HEAD_NAME',				'Nombre del UI'								),
-	('en_US',	'LOC_IMPROVEMENT_OLMEC_COLOSSAL_HEAD_DESCRIPTION',
+	('en_US',	'LOC_BUILDING_CASINO_NAME',				'Nombre del UI'								),
+	('en_US',	'LOC_BUILDING_CASINO_DESCRIPTION',
 	'Desc del UI [NEWLINE][NEWLINE] +1 [ICON_Faith] Faith, +1 [ICON_SCIENCE] Science. +1 [ICON_Faith] Faith if adjacent to a Campus, +1 [ICON_Science] Science if adjacent to a Holy Site. Cities with at least four Colossal heads provide a [ICON_GreatArtist] Great Artist Point. May be built on Rainforest. Cannot be constructed adjacent to another Colossal Head.'	),
 
 -----------------------------------------------

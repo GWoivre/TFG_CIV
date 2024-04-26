@@ -15,4 +15,4 @@
 INSERT INTO MomentIllustrations
 		(MomentIllustrationType,					MomentDataType,					GameDataType,						Texture								)
 VALUES	('MOMENT_ILLUSTRATION_UNIQUE_UNIT',			'MOMENT_DATA_UNIT',				'UNIT_GWG_WHALE',				'WerejaguarHistoricMoment.dds'		),
-		('MOMENT_ILLUSTRATION_UNIQUE_IMPROVEMENT',	'MOMENT_DATA_IMPROVEMENT',		'IMPROVEMENT_COLOSSAL_HEAD',		'ColossalHeadHistoricMoment.dds'	);
+		('MOMENT_ILLUSTRATION_UNIQUE_IMPROVEMENT',	'MOMENT_DATA_IMPROVEMENT',		'BUILDING_CASINO',		'ColossalHeadHistoricMoment.dds'	);

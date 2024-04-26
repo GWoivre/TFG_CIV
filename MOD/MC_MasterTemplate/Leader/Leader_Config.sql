@@ -14,8 +14,8 @@ VALUES	(
 		'CIVILIZATION_GWG_VEGAS', -- CivilizationType
 		'LOC_CIVILIZATION_GWG_VEGAS_NAME', -- CivilizationName
 		'ICON_CIVILIZATION_GWG_VEGAS', -- CivilizationIcon
-		'LOC_TRAIT_CIVILIZATION_MC_LET_THE_GODS_FEED_US_NAME', -- CivilizationAbilityName
-		'LOC_TRAIT_CIVILIZATION_MC_LET_THE_GODS_FEED_US_DESCRIPTION', -- CivilizationAbilityDescription
+		'LOC_TRAIT_CIVILIZATION_GWG_DONT_STOP_GAMBLING_NAME', -- CivilizationAbilityName
+		'LOC_TRAIT_CIVILIZATION_GWG_DONT_STOP_GAMBLING_DESCRIPTION', -- CivilizationAbilityDescription
 		'ICON_CIVILIZATION_GWG_VEGAS', -- CivilizationAbilityIcon
 		
 		-- Leader
@@ -51,9 +51,9 @@ VALUES	(
 		'Players:Expansion2_Players', -- Domain
 		'CIVILIZATION_GWG_VEGAS', -- CivilizationType
 		'LEADER_GWG_CHIFFRE', -- LeaderType
-		'IMPROVEMENT_COLOSSAL_HEAD', -- Type
-		'ICON_IMPROVEMENT_COLOSSAL_HEAD', -- Icon
-		'LOC_IMPROVEMENT_OLMEC_COLOSSAL_HEAD_NAME', -- Name
-		'LOC_IMPROVEMENT_OLMEC_COLOSSAL_HEAD_DESCRIPTION', -- Description
+		'BUILDING_CASINO', -- Type
+		'ICON_BUILDING_CASINO', -- Icon
+		'LOC_BUILDING_CASINO_NAME', -- Name
+		'LOC_BUILDING_CASINO_DESCRIPTION', -- Description
 		20 -- SortIndex
 		);

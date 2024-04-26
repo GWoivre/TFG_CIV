@@ -94,6 +94,9 @@
     <Content Include="Leader\Leader_UA.sql">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="build.lua">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="MC_MasterTemplate.Art.xml">
       <SubType>Content</SubType>
     </Content>

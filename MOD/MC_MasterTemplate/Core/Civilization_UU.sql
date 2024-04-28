@@ -38,8 +38,8 @@ VALUES	('UNIT_GWG_WHALE',		'CLASS_GWG_WHALE'	),
 INSERT INTO TypeTags (Type,		Tag)
 SELECT 	'UNIT_GWG_WHALE',	Tag
 FROM 	TypeTags
-WHERE 	Type = 'UNIT_SPEARMAN';
-
+WHERE 	Type = 'UNIT_SCOUT';
+-- Le hago como un scout
 -----------------------------------------------
 -- Traits
 
@@ -93,11 +93,11 @@ SELECT	'UNIT_GWG_WHALE',	-- UnitType
 		'LOC_UNIT_GWG_WHALE_NAME',	-- Name
 		'LOC_UNIT_GWG_WHALE_DESCRIPTION', -- Description
 		'TRAIT_CIVILIZATION_GWG_WHALE', -- TraitType
-		BaseMoves,
+		BaseMoves + 1,
 		Cost + 15,
 		PurchaseYield,
 		AdvisorType,
-		Combat + 5,
+		Combat,
 		RangedCombat,
 		Range,
 		BaseSightRange,
@@ -105,12 +105,12 @@ SELECT	'UNIT_GWG_WHALE',	-- UnitType
 		Domain,
 		FormationClass,
 		PromotionClass,
-		Maintenance,
+		Maintenance + 1,
 		MandatoryObsoleteTech,
 		PrereqTech,
 		PrereqCivic
 FROM	Units
-WHERE	UnitType = 'UNIT_SPEARMAN';
+WHERE	UnitType = 'UNIT_SCOUT';
 
 -----------------------------------------------
 -- UnitUpgrades
@@ -121,7 +121,7 @@ WHERE	UnitType = 'UNIT_SPEARMAN';
 INSERT INTO UnitUpgrades (Unit,	UpgradeUnit)
 SELECT 	'UNIT_GWG_WHALE',	UpgradeUnit
 FROM 	UnitUpgrades
-WHERE	Unit = 'UNIT_SPEARMAN';
+WHERE	Unit = 'UNIT_SCOUT';
 
 -----------------------------------------------
 -- UnitAiInfos
@@ -132,7 +132,7 @@ WHERE	Unit = 'UNIT_SPEARMAN';
 INSERT INTO UnitAiInfos (UnitType,	AiType)
 SELECT 	'UNIT_GWG_WHALE',		AiType
 FROM 	UnitAiInfos
-WHERE 	UnitType = 'UNIT_SPEARMAN';
+WHERE 	UnitType = 'UNIT_SCOUT';
 		
 -----------------------------------------------
 -- UnitReplaces
@@ -142,7 +142,7 @@ WHERE 	UnitType = 'UNIT_SPEARMAN';
 		
 INSERT INTO UnitReplaces
 		(CivUniqueUnitType,		ReplacesUnitType	)
-VALUES	('UNIT_GWG_WHALE',	'UNIT_SPEARMAN'		);
+VALUES	('UNIT_GWG_WHALE',	'UNIT_SCOUT'		);
 
 -----------------------------------------------
 -- UnitAbilities
@@ -162,7 +162,7 @@ VALUES	('ABILITY_GWG_WHALE',	'LOC_UNIT_GWG_WHALE_NAME',		'LOC_ABILITY_GWG_WHALE'
 	
 INSERT INTO Modifiers	
 		(ModifierId,									ModifierType,									OwnerRequirementSetId		)
-VALUES	('MODIFIER_WEREJAGUAR_GOLDEN_AGE_STRENGTH',		'MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH',			'PLAYER_HAS_GOLDEN_AGE'		);
+VALUES	('MODIFIER_WHALE_GOLDEN_AGE_YIELD',		'MODIFIER_BUILDING_YIELD_CHANGE',			'PLAYER_HAS_GOLDEN_AGE'		);
 
 -----------------------------------------------
 -- ModifierArguments
@@ -172,7 +172,9 @@ VALUES	('MODIFIER_WEREJAGUAR_GOLDEN_AGE_STRENGTH',		'MODIFIER_UNIT_ADJUST_COMBAT
 
 INSERT INTO ModifierArguments		
 		(ModifierId,										Name,						Value	)
-VALUES	('MODIFIER_WEREJAGUAR_GOLDEN_AGE_STRENGTH',			'Amount',					5		);
+VALUES	('MODIFIER_WHALE_GOLDEN_AGE_YIELD',			'Amount',					5		),
+		('MODIFIER_WHALE_GOLDEN_AGE_YIELD',			'BuildingType',				'BUILDING_CASINO'),
+		('MODIFIER_WHALE_GOLDEN_AGE_YIELD',			'YieldType',				'YIELD_GOLD');	
 
 -----------------------------------------------
 -- UnitAbilityModifiers
@@ -182,7 +184,7 @@ VALUES	('MODIFIER_WEREJAGUAR_GOLDEN_AGE_STRENGTH',			'Amount',					5		);
 
 INSERT INTO UnitAbilityModifiers
 		(UnitAbilityType,				ModifierId									)
-VALUES	('ABILITY_GWG_WHALE',		'MODIFIER_WEREJAGUAR_GOLDEN_AGE_STRENGTH'	);
+VALUES	('ABILITY_GWG_WHALE',		'MODIFIER_WHALE_GOLDEN_AGE_YIELD'	);
 
 -----------------------------------------------
 -- ModifierStrings
@@ -192,4 +194,4 @@ VALUES	('ABILITY_GWG_WHALE',		'MODIFIER_WEREJAGUAR_GOLDEN_AGE_STRENGTH'	);
 
 INSERT INTO ModifierStrings
 		(ModifierId,									Context,		Text							)
-VALUES	('MODIFIER_WEREJAGUAR_GOLDEN_AGE_STRENGTH',		'Preview',		'LOC_ABILITY_GWG_WHALE'		);
+VALUES	('MODIFIER_WHALE_GOLDEN_AGE_YIELD',		'Preview',		'LOC_ABILITY_GWG_WHALE'		);

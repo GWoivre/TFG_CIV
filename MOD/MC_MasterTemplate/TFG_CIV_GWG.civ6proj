@@ -100,10 +100,10 @@
     <Content Include="MC_MasterTemplate.Art.xml">
       <SubType>Content</SubType>
     </Content>
-    <XLP Include="Textures\LEADER_MC_PO_NGBE_BACKGROUND.dds">
+    <XLP Include="Textures\LEADER_GWG_CHIFFRE_BACKGROUND.dds">
       <SubType>Content</SubType>
     </XLP>
-    <XLP Include="Textures\LEADER_MC_PO_NGBE_BACKGROUND.tex">
+    <XLP Include="Textures\LEADER_GWG_CHIFFRE_BACKGROUND.tex">
       <SubType>Content</SubType>
     </XLP>
     <XLP Include="XLPs\LeaderFallbacks.xlp">
@@ -157,10 +157,10 @@
     <XLP Include="Textures\FALLBACK_NEUTRAL_PO_NGBE.tex">
       <SubType>Content</SubType>
     </XLP>
-    <XLP Include="Textures\LEADER_MC_PO_NGBE_NEUTRAL.dds">
+    <XLP Include="Textures\LEADER_GWG_CHIFFRE_NEUTRAL.dds">
       <SubType>Content</SubType>
     </XLP>
-    <XLP Include="Textures\LEADER_MC_PO_NGBE_NEUTRAL.tex">
+    <XLP Include="Textures\LEADER_GWG_CHIFFRE_NEUTRAL.tex">
       <SubType>Content</SubType>
     </XLP>
     <XLP Include="Textures\LEADER_CHIFFRE_DIPLO_BG.dds">

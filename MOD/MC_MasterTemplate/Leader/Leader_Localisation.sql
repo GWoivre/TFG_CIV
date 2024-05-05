@@ -25,8 +25,8 @@ VALUES
 -- Leader Unique Ability
 -----------------------------------------------	
 
-	('en_US',	'LOC_TRAIT_LEADER_MC_FEAR_NOT_EXPLORATION_NAME',	'Gambling'	),
-	('en_US',	'LOC_TRAIT_LEADER_MC_FEAR_NOT_EXPLORATION_DESCRIPTION',		'Gambling desc'	),
+	('en_US',	'LOC_TRAIT_LEADER_GWG_EXPANDING_HORIZONS_NAME',	'Gambling'	),
+	('en_US',	'LOC_TRAIT_LEADER_GWG_EXPANDING_HORIZONS_DESCRIPTION',		'Gambling desc'	),
 
 -----------------------------------------------
 -- Leader Agenda

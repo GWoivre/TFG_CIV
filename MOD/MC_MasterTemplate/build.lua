@@ -14,4 +14,4 @@ function CasinoIncome(iPlayer)
 	end
 end
 GameEvents.PlayerTurnStarted.Add(CasinoIncome) -- Y por ultimo lo añadimos al GameEvents de PlayerTurnStarted queriendo decir que esto se activa al inicio de cada turno del jugador
-
+

@@ -227,7 +227,7 @@ VALUES	('CIVILIZATION_GWG_VEGAS',	'FEATURE_FLOODPLAINS',	4		);
 INSERT INTO	StartBiasResources
 		(CivilizationType,			ResourceType,			Tier	)
 VALUES	('CIVILIZATION_GWG_VEGAS',	'RESOURCE_SILVER',		3		);
--- que le venga dpm la plata
+-- que le venga la plata
 INSERT INTO	StartBiasRivers
 		(CivilizationType,				Tier	)
 VALUES	('CIVILIZATION_GWG_VEGAS',		4		);
